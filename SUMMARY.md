@@ -5,6 +5,7 @@
 ## 2023
 
 * [FreeBSD 2023 年第一季度 季度状况报告](2023/freebsd-2023-nian-di-yi-ji-du-ji-du-zhuang-kuang-bao-gao.md)
+* [FreeBSD 2023 年第三季度 季度状况报告](2023/freebsd-2023-nian-di-san-ji-du-ji-du-zhuang-kuang-bao-gao.md)
 
 ## 2022
 
