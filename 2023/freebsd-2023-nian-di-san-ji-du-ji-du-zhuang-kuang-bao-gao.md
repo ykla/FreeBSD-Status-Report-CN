@@ -1115,9 +1115,9 @@ Wifibox 主要经过了对 Intel 芯片组的测试，并显示出很好的性�
 
 联系人：Lorenzo Salvadore <[salvadore@FreeBSD.org](mailto:salvadore@FreeBSD.org)>
 
-将默认的 GCC 版本更新到 GCC 13 的过程已经开始，并进行了 [测试运行](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=273397)。感谢运行测试运行的 [Antoine Brodin](mailto:antoine@FreeBSD.org) 以及所有其他参与的开发人员和 port 维护人员。
+将默认的 GCC 版本更新到 GCC 13 的过程已经开始，并进行了[测试运行](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=273397)。感谢运行测试运行的 [Antoine Brodin](mailto:antoine@FreeBSD.org) 以及所有其他参与的开发人员和 port 维护人员。
 
-同样的 测试运行包含了上一季度状态报告中预期的其他补丁。特别是包含了更新以下内容的补丁：
+同样的测试运行包含了上一季度状态报告中预期的其他补丁。特别是包含了更新以下内容的补丁：
 
 - [lang/gcc11](https://cgit.freebsd.org/ports/tree/lang/gcc11/) 到版本 11.4.0;
 - [lang/gcc12](https://cgit.freebsd.org/ports/tree/lang/gcc12/) 到版本 12.3.0;
