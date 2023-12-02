@@ -175,9 +175,7 @@ FreeBSD 基金会赞助了许多全球各地的会议、活动和峰会。这些
 - 附加博客文章
 
   - [宣传活动：2023 年 5 月 FreeBSD 开发者峰会和 BSDCan](https://freebsdfoundation.org/blog/advocating-at-events-may-2023-freebsd-dev-summit-and-bsdcan/)
-  - [升级到 FreeBSD 13.2 的前十大理由](https://
-
-freebsdfoundation.org/blog/top-ten-reasons-to-upgrade-to-freebsd-13-2/)
+  - [升级到 FreeBSD 13.2 的前十大理由](https://freebsdfoundation.org/blog/top-ten-reasons-to-upgrade-to-freebsd-13-2/)
 
 - [2023 年 7 月软件开发项目更新](https://freebsdfoundation.org/blog/july-2023-software-development-projects-update/)
 - [研究中的 FreeBSD：CHERI/Morello](https://freebsdfoundation.org/blog/freebsd-for-research-cheri-morello/)
