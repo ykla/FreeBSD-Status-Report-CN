@@ -1,9 +1,9 @@
-# FreeBSD 2023 第三季度报告
+# FreeBSD 2023 年第三季度状态报告
 
 - 原文地址：<https://www.freebsd.org/status/report-2023-07-2023-09/>
 - 译者：ChatGPT & ykla
   
-# FreeBSD 2023 年第三季度状态报告
+
 
 这是 2023 年第三季度的状态报告，共包含 32 个条目。
 
