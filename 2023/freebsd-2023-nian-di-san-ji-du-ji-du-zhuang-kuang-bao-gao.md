@@ -325,7 +325,7 @@ FreeBSD 发布工程团队负责制定和发布 FreeBSD 官方项目的发布计
 
 赞助商：FreeBSD 基金会
 
-### Ports Collection
+### Ports 
 
 链接：
 
@@ -341,7 +341,7 @@ FreeBSD 发布工程团队负责制定和发布 FreeBSD 官方项目的发布计
 
 Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人事事务。以下是上一季度发生的情况。
 
-- 根据 INDEX 文件，Ports Collection 目前包含 34,600 个 port 。目前有 3,000 个开放的 port 问题报告（PR），其中有 730 个未分配。上一季度主分支有 130 位贡献者进行了 11,454 次提交，2023Q3 分支有 37 位贡献者进行了 828 次提交。与上一季度相比，这意味着未分配 PR 数量略有减少，主分支提交次数增加了 10%，但季度分支的反向移植较少。 port 的数量也略有增长。
+- 根据 INDEX 文件，Ports  目前包含 34,600 个 port 。目前有 3,000 个开放的 port 问题报告（PR），其中有 730 个未分配。上一季度主分支有 130 位贡献者进行了 11,454 次提交，2023Q3 分支有 37 位贡献者进行了 828 次提交。与上一季度相比，这意味着未分配 PR 数量略有减少，主分支提交次数增加了 10%，但季度分支的反向移植较少。 port 的数量也略有增长。
 
 在 Q3 期间，我们欢迎 Joel Bodenmann（jbo@）作为新的 port 贡献者，向 mizhka@授予了 port 提交权限，他已经是 src 贡献者，并在一年的沉寂后将 kn​​u@ 和 uqs@ 的提交权限进行了保留。
 
@@ -372,7 +372,7 @@ Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人�
 
 ## 项目
 
-跨足多个类别的项目，涵盖了从内核和用户空间到 Ports Collection 或外部项目的各个方面。
+跨足多个类别的项目，涵盖了从内核和用户空间到 Ports  或外部项目的各个方面。
 
 ### 填补 FreeBSD 桌面体验的空白
 
@@ -385,7 +385,7 @@ Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人�
 
 联系人：Jason Bacon <[jwb@FreeBSD.org](mailto:jwb@FreeBSD.org)>
 
-[sysutils/desktop-installer](https://cgit.freebsd.org/ports/tree/sysutils/desktop-installer/) port 已经存在了十多年，可以快速配置裸露的 FreeBSD 系统，使用任何桌面环境或窗口管理器。然而，FreeBSD 基础和 Ports Collection 缺少一些终端用户在桌面操作系统中期望的常见功能。
+[sysutils/desktop-installer](https://cgit.freebsd.org/ports/tree/sysutils/desktop-installer/) port 已经存在了十多年，可以快速配置裸露的 FreeBSD 系统，使用任何桌面环境或窗口管理器。然而，FreeBSD 基础和 Ports  缺少一些终端用户在桌面操作系统中期望的常见功能。
 
 桌面安装程序的电池监视脚本已经增强，以在各个充电/放电水平显示弹出通知。
 
@@ -1166,7 +1166,7 @@ GitLab 是一个 DevOps 平台。它为团队带来了高效的速度，充满�
 
 ---
 
-### PortOptsCLI — Ports Collection 可访问性
+### PortOptsCLI — Ports  可访问性
 
 链接：
 
@@ -1254,7 +1254,7 @@ Potluck 的目标是成为 FreeBSD 和 Pot 的 Dockerhub：Pot 的风味和完�
 
 最后但同样重要的是，一个补丁（[90b1184d93c8](https://cgit.freebsd.org/ports/commit/?id=90b1184d93c8)）为 [devel/sccache](https://cgit.freebsd.org/ports/tree/devel/sccache/)  port 添加了构建集群支持。
 
-如常，欢迎反馈和补丁。
+一如既往，欢迎反馈和补丁。
 
 赞助商：Nikulipe UAB，Honeyguide Group
 
