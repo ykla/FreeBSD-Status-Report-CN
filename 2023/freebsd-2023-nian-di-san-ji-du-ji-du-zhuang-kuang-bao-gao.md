@@ -1,12 +1,13 @@
 # FreeBSD 2023 第三季度报告
 
 - 原文地址；<https://www.freebsd.org/status/report-2023-01-2023-03/>
-
+- 译者：ChatGPT & ykla
+  
 # FreeBSD 2023 年第三季度状态报告
 
 这是 2023 年第三季度的状态报告，共包含 32 个条目。
 
-这是夏季季度，因此包含了许多有趣的来自 Google Summer of Code 的新闻。当然，我们也有我们通常的团队报告，许多项目与我们分享了它们的最新动态。为 FreeBSD 14 的第一次发布完成了许多重要的工作。
+这是夏季，因此包含了许多有趣的来自谷歌编程之夏的新闻。当然，我们也有我们通常的团队报告，许多项目与我们分享了它们的最新动态。为 FreeBSD 14 的第一次发布做了许多重要的工作。
 
 祝您阅读愉快。
 
@@ -166,7 +167,7 @@ FreeBSD 基金会赞助了许多全球各地的会议、活动和峰会。这些
 - 在 EuroBSDCon 2023（2023 年 9 月 14 日至 17 日，葡萄牙科英布拉）上发表演讲，并赞助并设置了展台
 - 参加了[Open Source Summit, Europe](https://events.linuxfoundation.org/open-source-summit-europe/)，于 2023 年 9 月 19 日至 21 日在西班牙毕尔巴鄂
 - 继续筹划[2023 年 11 月 FreeBSD 供应商峰会](https://freebsdfoundation.org/news-and-events/event-calendar/november-2023-freebsd-vendor-summit/)，于 2023 年 11 月 2 日至 3 日在加利福尼亚州圣何塞举行
-- 继续管理我们的 Google Summer of Code 项目
+- 继续管理我们的谷歌编程之夏项目
 - 发布了[七月简报](https://freebsdfoundation.org/news-and-events/newsletter/freebsd-foundation-update-july-2023/)
 - 附加博客文章
 
@@ -177,7 +178,7 @@ freebsdfoundation.org/blog/top-ten-reasons-to-upgrade-to-freebsd-13-2/)
 
 - [2023 年 7 月软件开发项目更新](https://freebsdfoundation.org/blog/july-2023-software-development-projects-update/)
 - [研究中的 FreeBSD：CHERI/Morello](https://freebsdfoundation.org/blog/freebsd-for-research-cheri-morello/)
-- 认识 FreeBSD Google Summer of Code 学生
+- 认识 FreeBSD 谷歌编程之夏学生
 
   - [Soobin Rho](https://freebsdfoundation.org/blog/meet-the-2023-freebsd-google-summer-of-code-students-soobin-rho/)
   - [Raghav Sharma](https://freebsdfoundation.org/blog/meet-the-2023-freebsd-google-summer-of-code-students-raghav-sharma/)
@@ -186,17 +187,17 @@ freebsdfoundation.org/blog/top-ten-reasons-to-upgrade-to-freebsd-13-2/)
 
 - [认识 2023 年滑铁卢大学夏季实习生：Naman Sood](https://freebsdfoundation.org/blog/meet-the-summer-2023-university-of-waterloo-co-op-student-naman-sood/)
 - [认识 FreeBSD 基金会 2023 年夏季实习生：Jake Freeland](https://freebsdfoundation.org/blog/meet-freebsd-foundation-2023-summer-intern-jake-freeland/)
-- FreeBSD 在新闻中
+- 在新闻中的 FreeBSD 
 
   - [FreeBSD 基金会加入 OSI 的开放政策联盟](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-joins-osis-open-policy-alliance/)
   - [Hackernoon：我们将开源 FreeBSD 用作企业操作系统的 5 个原因](https://freebsdfoundation.org/news-and-events/latest-news/hackernoon-5-reasons-we-use-open-source-freebsd-as-our-enterprise-os/)
   - [What the Dev Podcast：FreeBSD 项目的演变](https://freebsdfoundation.org/news-and-events/latest-news/what-the-dev-podcast-the-evolution-of-the-freebsd-project/)
 
-我们通过出版专业制作的 FreeBSD Journal 来向世界宣传 FreeBSD。正如我们先前提到的，FreeBSD Journal 现在是一份免费出版物。了解更多并访问最新问题，[https://www.freebsdfoundation.org/journal/](https://www.freebsdfoundation.org/journal/)。您可以在[https://freebsdfoundation.org/our-work/events/](https://freebsdfoundation.org/our-work/events/)找到我们参加的事件和即将举行的事件的更多信息。
+我们通过出版专业制作的 FreeBSD Journal 来向全世界宣传 FreeBSD。正如我们先前提到的，FreeBSD Journal 现在是一份免费出版物。了解更多并访问最新杂志，[https://www.freebsdfoundation.org/journal/](https://www.freebsdfoundation.org/journal/)。您可以在[https://freebsdfoundation.org/our-work/events/](https://freebsdfoundation.org/our-work/events/)找到我们参加的事件和即将举行的事件的更多信息。
 
 ## 操作系统改进
 
-在 2023 年第三季度，有 282 个 src（源代码）、652 个 port 和 24 个 doc tree（文档树）的提交确认了 FreeBSD 基金会的赞助。一些由基金会赞助的工作在单独的报告条目中有所描述：
+在 2023 年第三季度，有 282 个 src（源代码）、652 个 port 和 24 个 doc tree（文档）的提交确认了 FreeBSD 基金会的赞助。一些由基金会赞助的工作在单独的报告条目中有所描述：
 
 - [启用使用日志软更新的文件系统上的快照](https://www.freebsd.org/status/report-2023-07-2023-09/#_enabling_snapshots_on_filesystems_using_journaled_soft_updates)
 - [登录类修复和改进](https://www.freebsd.org/status/report-2023-07-2023-09/#_login_classes_fixes_and_improvements)
@@ -416,7 +417,7 @@ Ports 管理团队负责监督 Ports 树的整体方向、构建软件包以及�
 
 目前，该插件准备合并到 LLVM 代码库中的[LLVM PullRequest](https://github.com/llvm/llvm-project/pull/67106)中。
 
-赞助方：Google Summer of Code '23 程序
+赞助方：23 谷歌编程之夏
 
 ---
 
@@ -531,7 +532,7 @@ Ports 管理团队负责监督 Ports 树的整体方向、构建软件包以及�
 
 我很高兴地说，SquashFS 将在即将发布的 FreeBSD 版本中找到其位置。
 
-赞助方：Google Summer of Code 2023 程序
+赞助方：谷歌编程之夏 2023 
 
 ### 进程可见性安全策略
 
