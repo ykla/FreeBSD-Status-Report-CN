@@ -366,7 +366,7 @@ Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人�
   - 将 Rust 更新到 1.72.0
   - 将 Wine 更新到 8.0.2
 
-在上一季度，pgkmgr@ 进行了 18 次 exp 运行，测试各种 port 升级、 port 默认版本更新和 pycryptography 更改。
+在上一季度，pgkmgr@ 进行了 18 次实验性运行，测试了各种 port 升级、 port 默认版本更新和 pycryptography 更改。
 
 ---
 
