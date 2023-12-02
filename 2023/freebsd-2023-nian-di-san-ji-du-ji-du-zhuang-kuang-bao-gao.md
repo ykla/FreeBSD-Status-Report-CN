@@ -1,6 +1,6 @@
 # FreeBSD 2023 第三季度报告
 
-- 原文地址；<https://www.freebsd.org/status/report-2023-01-2023-03/>
+- 原文地址；<https://www.freebsd.org/status/report-2023-07-2023-09/>
 - 译者：ChatGPT & ykla
   
 # FreeBSD 2023 年第三季度状态报告
