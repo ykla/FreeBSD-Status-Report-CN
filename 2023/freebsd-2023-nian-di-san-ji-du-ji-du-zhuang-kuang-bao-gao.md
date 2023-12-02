@@ -1115,9 +1115,9 @@ Wifibox 主要经过了对 Intel 芯片组的测试，并显示出很好的性�
 
 联系人：Lorenzo Salvadore <[salvadore@FreeBSD.org](mailto:salvadore@FreeBSD.org)>
 
-将默认的 GCC 版本更新到 GCC 13 的过程已经开始，并进行了 [exp-run](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=273397)。感谢运行 exp-run 的 [Antoine Brodin](mailto:antoine@FreeBSD.org) 以及所有其他参与的开发人员和 port 维护人员。
+将默认的 GCC 版本更新到 GCC 13 的过程已经开始，并进行了 [测试运行](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=273397)。感谢运行测试运行的 [Antoine Brodin](mailto:antoine@FreeBSD.org) 以及所有其他参与的开发人员和 port 维护人员。
 
-同样的 exp-run 包含了上一季度状态报告中预期的其他补丁。特别是包含了更新以下内容的补丁：
+同样的 测试运行包含了上一季度状态报告中预期的其他补丁。特别是包含了更新以下内容的补丁：
 
 - [lang/gcc11](https://cgit.freebsd.org/ports/tree/lang/gcc11/) 到版本 11.4.0;
 - [lang/gcc12](https://cgit.freebsd.org/ports/tree/lang/gcc12/) 到版本 12.3.0;
@@ -1125,7 +1125,7 @@ Wifibox 主要经过了对 Intel 芯片组的测试，并显示出很好的性�
 
 读者可能还记得我计划在 GCC 13.1.0 发布后立即将默认版本更新为 GCC 13，但可以注意到 GCC 开发人员在我努力处理 GCC  port 时更快地发布了 13.2.0 版本。
 
-在 exp-run 中报告的大多数错误都是由同一错误引起的：`error: expected identifier before '__is_convertible'`。似乎问题是 FreeBSD 12 的 libcxx 与 GCC 13 标头之间的不兼容性。请查看 [exp-run 中的讨论](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=273397) 获取更多信息，并提供你的反馈。
+在测试运行中报告的大多数错误都是由同一错误引起的：`error: expected identifier before '__is_convertible'`。似乎问题是 FreeBSD 12 的 libcxx 与 GCC 13 标头之间的不兼容性。请查看[测试运行中的讨论](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=273397) 获取更多信息，并提供你的反馈。
 
 ---
 
