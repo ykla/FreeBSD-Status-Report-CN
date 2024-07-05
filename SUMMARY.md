@@ -2,6 +2,10 @@
 
 * [FreeBSD-Status-Report-CN](README.md)
 
+## 2024
+
+* [FreeBSD 2024 年第一季度状态报告](2024/2024-q1.md)
+
 ## 2023
 
 * [FreeBSD 2023 年第一季度状态报告](2023/freebsd-2023-nian-di-yi-ji-du-ji-du-zhuang-kuang-bao-gao.md)
