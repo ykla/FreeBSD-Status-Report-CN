@@ -1,6 +1,6 @@
 # Table of contents
 
-* [FreeBSD-Status-Report-CN](README.md)
+* [FreeBSD 中文状态报告](README.md)
 * [编辑日志](CHANGELOG.md)
 
 ## 2024
