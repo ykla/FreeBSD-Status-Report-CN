@@ -21,6 +21,13 @@
 * [FreeBSD 2022 年第二季度状态报告](2022/freebsd-2022-nian-di-er-ji-du-ji-du-zhuang-kuang-bao-gao.md)
 * [FreeBSD 2022 年第三季度状态报告](2022/freebsd-2022-nian-di-san-ji-du-ji-du-bao-gao.md)
 
+## 2005
+
+* [FreeBSD 2005 年 1-3 月状态报告](2005/1-3.md)
+* [FreeBSD 2005 年 3-6 月状态报告](2005/3-6.md)
+* [FreeBSD 2005 年 7-10 月状态报告](2005/7-10.md)
+* [FreeBSD 2005 年 10-12 月状态报告](2005/10-12.md)
+  
 ## 2004
 
 * [FreeBSD 2004 年 1-2 月状态报告](2004/1-2.md)
