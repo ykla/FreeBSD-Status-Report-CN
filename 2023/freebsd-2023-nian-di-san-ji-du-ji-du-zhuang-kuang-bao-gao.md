@@ -2,8 +2,6 @@
 
 - 原文地址：<https://www.freebsd.org/status/report-2023-07-2023-09/>
 - 译者：ChatGPT & ykla
-  
-
 
 这是 2023 年第三季度的状态报告，共包含 32 个条目。
 
@@ -13,8 +11,6 @@
 
 Lorenzo Salvadore，代表状态团队。
 
----
-
 目录
 
 - [FreeBSD 团队报告](https://www.freebsd.org/status/report-2023-07-2023-09/#FreeBSD-Team-Reports)
@@ -23,7 +19,7 @@ Lorenzo Salvadore，代表状态团队。
   - [FreeBSD 基金会](https://www.freebsd.org/status/report-2023-07-2023-09/#_freebsd_foundation)
   - [FreeBSD 发布工程团队](https://www.freebsd.org/status/report-2023-07-2023-09/#_freebsd_release_engineering_team)
   - [持续集成](https://www.freebsd.org/status/report-2023-07-2023-09/#_continuous_integration)
-  - [Ports 集合](https://www.freebsd.org/status/report-2023-07-2023-09/#_ports_collection)
+  - [Ports ](https://www.freebsd.org/status/report-2023-07-2023-09/#_ports_collection)
 
 - [项目](https://www.freebsd.org/status/report-2023-07-2023-09/#projects)
 
@@ -69,7 +65,7 @@ Lorenzo Salvadore，代表状态团队。
   - [FreeBSD 上的 GCC](https://www.freebsd.org/status/report-2023-07-2023-09/#_gcc_on_freebsd)
   - [Valgrind：为 FreeBSD 15 更新的 valgrind-devel](https://www.freebsd.org/status/report-2023-07-2023-09/#_valgrind_valgrind_devel_updated_for_freebsd_15)
   - [GitLab 16.3 可用](https://www.freebsd.org/status/report-2023-07-2023-09/#_gitlab_16_3_available)
-  - [PortOptsCLI — Ports 集合可访问性](https://www.freebsd.org/status/report-2023-07-2023-09/#_portoptscliports_collection_accessibility)
+  - [PortOptsCLI — Ports 可访问性](https://www.freebsd.org/status/report-2023-07-2023-09/#_portoptscliports_collection_accessibility)
 
 - [第三方项目](https://www.freebsd.org/status/report-2023-07-2023-09/#third-Party-Projects)
 
@@ -79,8 +75,6 @@ Lorenzo Salvadore，代表状态团队。
 ## FreeBSD 团队报告
 
 来自各个官方和半官方团队的条目，详见[管理页面](https://www.freebsd.org/administration/)。
-
----
 
 ### FreeBSD 核心团队
 
@@ -117,8 +111,6 @@ Matrix 实例和 Element-web 客户端的测试仍在进行中。计划在九月
 #### EuroBSDCon
 
 核心团队成员在 EuroBSDcon 期间与 FreeBSD 基金会在科英布拉会面，讨论项目的方向。
-
----
 
 ### FreeBSD 基金会
 
@@ -188,7 +180,7 @@ FreeBSD 基金会赞助了许多全球各地的会议、活动和峰会。这些
 
 - [认识 2023 年滑铁卢大学夏季实习生：Naman Sood](https://freebsdfoundation.org/blog/meet-the-summer-2023-university-of-waterloo-co-op-student-naman-sood/)
 - [认识 FreeBSD 基金会 2023 年夏季实习生：Jake Freeland](https://freebsdfoundation.org/blog/meet-freebsd-foundation-2023-summer-intern-jake-freeland/)
-- 在新闻中的 FreeBSD 
+- 在新闻中的 FreeBSD
 
   - [FreeBSD 基金会加入 OSI 的开放政策联盟](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-joins-osis-open-policy-alliance/)
   - [Hackernoon：我们将开源 FreeBSD 用作企业操作系统的 5 个原因](https://freebsdfoundation.org/news-and-events/latest-news/hackernoon-5-reasons-we-use-open-source-freebsd-as-our-enterprise-os/)
@@ -268,8 +260,6 @@ FreeBSD 发布工程团队负责制定和发布 FreeBSD 官方项目的发布计
 赞助商：[https://www.gofundme.com/f/gjbbsd/](https://www.gofundme.com/f/gjbbsd/)
 赞助商：FreeBSD 基金会
 
----
-
 ### 持续集成
 
 链接：
@@ -295,7 +285,7 @@ FreeBSD 发布工程团队负责制定和发布 FreeBSD 官方项目的发布计
 
 - 为 stable/14 分支添加作业
 - 更新[“Tinderbox”视图](https://tinderbox.freebsd.org/)的 CI 结果，现在包括测试结果和当前失败或不稳定系列的“起点”。
-- 这主要由基金会实习生Yan-Hao Wang完成。他的其他贡献在本报告的其他条目中有所说明。
+- 这主要由基金会实习生 Yan-Hao Wang 完成。他的其他贡献在本报告的其他条目中有所说明。
 
 进行中的任务：
 
@@ -325,7 +315,7 @@ FreeBSD 发布工程团队负责制定和发布 FreeBSD 官方项目的发布计
 
 赞助商：FreeBSD 基金会
 
-### Ports 
+### Ports
 
 链接：
 
@@ -341,7 +331,7 @@ FreeBSD 发布工程团队负责制定和发布 FreeBSD 官方项目的发布计
 
 Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人事事务。以下是上一季度发生的情况。
 
-- 根据 INDEX 文件，Ports  目前包含 34,600 个 port 。目前有 3,000 个开放的 port 问题报告（PR），其中有 730 个未分配。上一季度主分支有 130 位贡献者进行了 11,454 次提交，2023Q3 分支有 37 位贡献者进行了 828 次提交。与上一季度相比，这意味着未分配 PR 数量略有减少，主分支提交次数增加了 10%，但季度分支的反向移植较少。 port 的数量也略有增长。
+- 根据 INDEX 文件，Ports 目前包含 34,600 个 port 。目前有 3,000 个开放的 port 问题报告（PR），其中有 730 个未分配。上一季度主分支有 130 位贡献者进行了 11,454 次提交，2023Q3 分支有 37 位贡献者进行了 828 次提交。与上一季度相比，这意味着未分配 PR 数量略有减少，主分支提交次数增加了 10%，但季度分支的反向移植较少。 port 的数量也略有增长。
 
 在 Q3 期间，我们欢迎 Joel Bodenmann（jbo@）作为新的 port 贡献者，向 mizhka@授予了 port 提交权限，他已经是 src 贡献者，并在一年的沉寂后将 kn​​u@ 和 uqs@ 的提交权限进行了保留。
 
@@ -368,11 +358,9 @@ Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人�
 
 在上一季度，pgkmgr@ 进行了 18 次实验性运行，测试了各种 port 升级、 port 默认版本更新和 pycryptography 更改。
 
----
-
 ## 项目
 
-跨足多个类别的项目，涵盖了从内核和用户空间到 Ports  或外部项目的各个方面。
+跨足多个类别的项目，涉及了从内核和用户空间到 Ports 或外部项目的各个方面。
 
 ### 填补 FreeBSD 桌面体验的空白
 
@@ -385,13 +373,13 @@ Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人�
 
 联系人：Jason Bacon <[jwb@FreeBSD.org](mailto:jwb@FreeBSD.org)>
 
-[sysutils/desktop-installer](https://cgit.freebsd.org/ports/tree/sysutils/desktop-installer/) port 已经存在了十多年，可以快速配置裸露的 FreeBSD 系统，使用任何桌面环境或窗口管理器。然而，FreeBSD 基础和 Ports  缺少一些终端用户在桌面操作系统中期望的常见功能。
+[sysutils/desktop-installer](https://cgit.freebsd.org/ports/tree/sysutils/desktop-installer/) port 已经存在了十多年，可以快速配置裸露的 FreeBSD 系统，使用任何桌面环境或窗口管理器。然而，FreeBSD 基础和 Ports 缺少一些终端用户在桌面操作系统中期望的常见功能。
 
 桌面安装程序的电池监视脚本已经增强，以在各个充电/放电水平显示弹出通知。
 
 [deskutils/qmediamanager](https://cgit.freebsd.org/ports/tree/deskutils/qmediamanager/)，与[sysutils/devd-mount](https://cgit.freebsd.org/ports/tree/sysutils/devd-mount/)和[sysutils/npmount](https://cgit.freebsd.org/ports/tree/sysutils/npmount/)一起，可以在从 devd 接收到通知时挂载插入的媒体，并显示一个弹出窗口，为用户提供显示文件系统信息、打开文件管理器、重新格式化、将磁盘镜像复制到设备或卸载的选项。它提供了一种便捷且安全的方式来处理外部媒体，如 USB 存储设备。
 
-第四个新 port  - [deskutils/freebsd-update-notify](https://cgit.freebsd.org/ports/tree/deskutils/freebsd-update-notify/) - 在新的基本更新可用时或经过可配置的时间限制后显示一个弹出窗口通知。如果用户选择继续进行更新，则使用[auto-update-system(1)](https://man.freebsd.org/cgi/man.cgi?query=auto-update-system&sektion=1&format=html)（[sysutils/auto-admin](https://cgit.freebsd.org/ports/tree/sysutils/auto-admin/)的特性）更新整个系统（软件包、 port 和基本系统）。
+第四个新 port - [deskutils/freebsd-update-notify](https://cgit.freebsd.org/ports/tree/deskutils/freebsd-update-notify/) - 在新的基本更新可用时或经过可配置的时间限制后显示一个弹出窗口通知。如果用户选择继续进行更新，则使用[auto-update-system(1)](https://man.freebsd.org/cgi/man.cgi?query=auto-update-system&sektion=1&format=html)（[sysutils/auto-admin](https://cgit.freebsd.org/ports/tree/sysutils/auto-admin/)的特性）更新整个系统（软件包、 port 和基本系统）。
 
 这些新工具使 FreeBSD 桌面体验更接近于最受欢迎的桌面操作系统的便利性。
 
@@ -417,15 +405,11 @@ Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人�
 
 赞助方：2023 谷歌编程之夏
 
----
-
 ## 用户空间
 
-影响基础系统及其中程序的变更。
+影响基本系统及其中程序的变更。
 
----
-
-### OpenSSL 3 在基础系统中的改进
+### OpenSSL 3 在基本系统中的改进
 
 链接：
 
@@ -433,19 +417,17 @@ Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人�
 
 联系人：Pierre Pronchery <[pierre@freebsdfoundation.org](mailto:pierre@freebsdfoundation.org)>
 
-这是对[将 OpenSSL 3 整合到基础系统](https://www.freebsd.org/status/report-2023-04-2023-06/)的[上一个季度报告](https://www.freebsd.org/status/report-2023-04-2023-06/#_openssl_3_in_base)的后续。
+这是对[将 OpenSSL 3 整合到基本系统](https://www.freebsd.org/status/report-2023-04-2023-06/)的[上一个季度报告](https://www.freebsd.org/status/report-2023-04-2023-06/#_openssl_3_in_base)的后续。
 
 自上一报告以来最明显的更新无疑是 3.0.10 和 3.0.11 版本，修复了低到中等严重性的 CVE 问题（[CVE-2023-2975](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2975)、[CVE-2023-3446](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3446)、[CVE-2023-3817](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3817)、[CVE-2023-4807](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4807))。
 
-然而，这些并不是唯一的更改，本季度解决了一些与整合相关的特定问题，其中大多数是在使用在基础系统中使用 OpenSSL 3 构建 port 时发现的。
+然而，这些并不是唯一的更改，本季度解决了一些与整合相关的特定问题，其中大多数是在使用在基本系统中使用 OpenSSL 3 构建 port 时发现的。
 
 修复包括：
 
 - 使用 libcrypto.so 共享对象正确链接引擎和遗留提供程序，以便符号能正确可见。为此，在构建系统中需要一个[小技巧](https://cgit.freebsd.org/src/commit/Makefile.inc1?id=1a18383a52bc373e316d224cef1298debf6f7e25)。
 - 更正 FIPS 提供程序的源文件列表。
 - 确保`priority`和`umask`功能可以继承登录进程的属性。这在从具有非默认优先级的进程暂时以其他用户身份登录时很有用，以确保由该用户启动的进程仍具有相同的优先级级别。
-
----
 
 ### 登录类修复与改进
 
@@ -487,8 +469,6 @@ Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人�
 
 有关内核子系统/功能、驱动程序支持、文件系统等的更新。
 
----
-
 ### 启用使用日志软更新的文件系统的快照
 
 联系人：Marshall Kirk McKusick <[mckusick@FreeBSD.org](mailto:mckusick@FreeBSD.org)>
@@ -502,8 +482,6 @@ Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人�
 该项目的第二个阶段是在运行日志软更新的文件系统上使用快照进行后台检查。该阶段于 2023 年第三季度完成，及时包含在 14.0 版本中，并在 13.2-STABLE 版本中提供。
 
 赞助方：The FreeBSD Foundation
-
----
 
 ### FreeBSD 内核的 SquashFS 驱动程序
 
@@ -530,7 +508,7 @@ Ports 管理团队负责监督 Ports 的整体方向、构建软件包以及人�
 
 我很高兴地说，SquashFS 将在即将发布的 FreeBSD 版本中找到其位置。
 
-赞助方： 2023 谷歌编程之夏 
+赞助方： 2023 谷歌编程之夏
 
 ### 进程可见性安全策略
 
@@ -548,7 +526,7 @@ FreeBSD 实现了三种内置的安全策略，限制了特定用户可以看到
 
 第二种可以防止非特权用户看到或与其凭据中没有用户是其成员的进程进行交互。可以通过将 sysctl `security.bsd.see_other_gids` 设置为 0（默认值为 1）来激活。
 
-第三种可以防止非特权用户的进程看到或与处于严格子 Jail中的进程进行交互。 Jail子系统已经阻止这样的进程看到不是其后代的 Jail中的进程（参见 [jail(8)](https://man.freebsd.org/cgi/man.cgi?query=jail&sektion=8&format=html)，特别是“分层 Jail”一节）。此策略的一个可能的用途是与上面的第一种策略结合使用，以隐藏在具有与祖先 Jail中的某个用户相同的实际 UID 的子 Jail中的进程，因为在这些不同的 Jail中具有相同 UID 的用户在逻辑上被视为不同的用户。可以通过将 sysctl `security.bsd.see_jail_proc` 设置为 0（默认值为 1）来激活。
+第三种可以防止非特权用户的进程看到或与处于严格子 Jail 中的进程进行交互。 Jail 子系统已经阻止这样的进程看到不是其后代的 Jail 中的进程（参见 [jail(8)](https://man.freebsd.org/cgi/man.cgi?query=jail&sektion=8&format=html)，特别是“分层 Jail”一节）。此策略的一个可能的用途是与上面的第一种策略结合使用，以隐藏在具有与祖先 Jail 中的某个用户相同的实际 UID 的子 Jail 中的进程，因为在这些不同的 Jail 中具有相同 UID 的用户在逻辑上被视为不同的用户。可以通过将 sysctl `security.bsd.see_jail_proc` 设置为 0（默认值为 1）来激活。
 
 在审查这些策略的代码并进行实际测试之后，我们注意到了一些问题和限制，这促使我们对此进行了工作。
 
@@ -556,7 +534,7 @@ FreeBSD 实现了三种内置的安全策略，限制了特定用户可以看到
 
 由 `security.bsd.see_jail_proc` sysctl 控制的策略已经接收了以下修复和改进：
 
-- 强化 `security.bsd.see_jail_proc` 策略，防止未经授权的用户试图在随机情况下杀死、更改优先级或调试具有相同（真实）UID 的子 Jail中的进程，即使这些进程对它们不可见，只要猜测的进程 PID 正确，就会成功。
+- 强化 `security.bsd.see_jail_proc` 策略，防止未经授权的用户试图在随机情况下杀死、更改优先级或调试具有相同（真实）UID 的子 Jail 中的进程，即使这些进程对它们不可见，只要猜测的进程 PID 正确，就会成功。
 - 使该策略可以被 MAC 策略覆盖，就像其他策略一样。
 
 由 `security.bsd.see_other_gids` 控制的策略已经修复，以考虑进程的真实组而不是其有效组，以确定试图访问进程的用户是否是进程所属组的成员。其原因是一些用户应该继续看到它们启动的进程，即使它们通过 setgid 位获得进一步的权限。反之，他们不应该看到由特权用户启动的临时进入用户的主组的进程。这种新行为与 `security.bsd.see_other_uids` 对用户 ID 始终执行的行为一致（即考虑某个进程的真实用户 ID 而不是有效 ID）。
@@ -588,13 +566,9 @@ FreeBSD 实现了三种内置的安全策略，限制了特定用户可以看到
 
 截至 [bbe017e0415a](https://cgit.freebsd.org/src/commit/?id=bbe017e0415a)，已经实现了 ioprio 系统调用。这使得可以使用 debootstrap 安装 Ubuntu 23.04。
 
----
-
 ## 架构
 
 更新特定于平台的功能并为新的硬件平台提供支持。
-
----
 
 ### NXP DPAA2 支持
 
@@ -633,7 +607,7 @@ DPAA2 是一种硬件级网络架构，存在于一些 NXP SoC 中，其中包�
 
 赞助方：Traverse Technologies（提供 Ten64 硬件进行测试）
 
-### amd64 SIMD 增强  
+### amd64 SIMD 增强
 
 链接：
 [项目提案](http://fuz.su/~fuz/freebsd/2023-04-05_libc-proposal.txt) URL: [http://fuz.su/~fuz/freebsd/2023-04-05_libc-proposal.txt](http://fuz.su/~fuz/freebsd/2023-04-05_libc-proposal.txt)
@@ -658,21 +632,19 @@ SIMD 指令集扩展，如 SSE、AVX 和 NEON，在现代计算机上普遍存�
 
 赞助方：The FreeBSD Foundation
 
----
-
 ### 将 mfsBSD 集成到发布构建工具中
 
 链接：
 
-[维基文章](https://wiki.freebsd.org/SummerOfCode2023Projects/IntegrateMfsBSDIntoTheReleaseBuildingTools) 
+[维基文章](https://wiki.freebsd.org/SummerOfCode2023Projects/IntegrateMfsBSDIntoTheReleaseBuildingTools)
 
 URL: [https://wiki.freebsd.org/SummerOfCode2023Projects/IntegrateMfsBSDIntoTheReleaseBuildingTools](https://wiki.freebsd.org/SummerOfCode2023Projects/IntegrateMfsBSDIntoTheReleaseBuildingTools)
 
-[Phabricator 上的代码审查](https://reviews.freebsd.org/D41705) 
+[Phabricator 上的代码审查](https://reviews.freebsd.org/D41705)
 
 URL: [https://reviews.freebsd.org/D41705](https://reviews.freebsd.org/D41705)
 
-[FreeBSD Foundation 博客文章](https://freebsdfoundation.org/blog/meet-the-2023-freebsd-google-summer-of-code-students-soobin-rho/) 
+[FreeBSD Foundation 博客文章](https://freebsdfoundation.org/blog/meet-the-2023-freebsd-google-summer-of-code-students-soobin-rho/)
 
 URL: [https://freebsdfoundation.org/blog/meet-the-2023-freebsd-google-summer-of-code-students-soobin-rho/](https://freebsdfoundation.org/blog/meet-the-2023-freebsd-google-summer-of-code-students-soobin-rho/)
 
@@ -700,8 +672,6 @@ URL: [https://freebsdfoundation.org/blog/meet-the-2023-freebsd-google-summer-of-
 
 更新云特定功能并为新的云平台提供支持。
 
----
-
 ### FreeBSD 上的 OpenStack
 
 链接：
@@ -724,8 +694,6 @@ OpenStack 是一款开源的云操作系统，对于在云平台上部署各种�
 展望第四季度，我们的重点是用修订后的文档完成 POC 并移植到 FreeBSD 14.0-RELEASE。缺少相应 FreeBSD 软件包的依赖项将逐个移植。我们还计划将我们的工作与 OpenStack [2023.1 Antelope](https://releases.openstack.org/antelope/index.html) 进行合并。我们邀请对我们的文档感兴趣的人探索并为该项目的成功做出贡献。
 
 赞助商：The FreeBSD Foundation
-
----
 
 ### FreeBSD 在 Microsoft HyperV 和 Azure 上
 
@@ -790,8 +758,6 @@ Wei Hu 和 Souradeep Chakrabarti 在 arm64 中解决了几个关键 bug：
 
 赞助方：对于 Microsoft 的人员和为其他方提供资源的一切，由 The FreeBSD Foundation 赞助。
 
----
-
 ### FreeBSD 在 EC2 上
 
 链接：
@@ -808,13 +774,9 @@ FreeBSD 可以在 x86（Intel 和 AMD）和 ARM64（Graviton）EC2 实例上使�
 
 这项工作得到了 Colin 的 FreeBSD/EC2 Patreon 的支持。
 
----
-
 ## 文档
 
 文档、手册页或新的外部书籍/文件中的重要更改。
-
----
 
 ### 文档工程团队
 
@@ -889,7 +851,7 @@ Handbook 中已添加了新的 `USES` 标记：
 - [Jails 章节已经重写](https://cgit.freebsd.org/doc/commit/?id=612b7cc1721224c494c5b2600188e1508bb5611b)
 - 下一个要处理的部分将是文件系统部分：UFS、OpenZFS、其他文件系统。
 
-#### 工作组 FAQ 
+#### 工作组 FAQ
 
 联系人：Sergio Carlavilla <[carlavilla@FreeBSD.org](mailto:carlavilla@FreeBSD.org)>
 
@@ -907,8 +869,6 @@ Handbook 中已添加了新的 `USES` 标记：
    新设计，响应式和深色主题。 (_几乎完成，在 EuroBSDCon 上进行了演示_)
 3. 重新设计 Web 上的 Ports 页面
    用于创建应用程序门户的 Ports 脚本。 (_进行中_)
-
----
 
 ### FreeBSD 在线编辑器和 Man 手册编辑器
 
@@ -932,8 +892,6 @@ Handbook 中已添加了新的 `USES` 标记：
 
 赞助：FreeBSD 基金会
 
----
-
 ### FreeBSD 专家系统
 
 链接：
@@ -954,8 +912,6 @@ Handbook 中已添加了新的 `USES` 标记：
 ## Ports
 
 影响 Ports 的变化，无论是触及大部分树的全面变化还是单独的 port 本身。
-
----
 
 ### FreeBSD 上的 KDE
 
@@ -991,7 +947,7 @@ KDE Gear 每季度发布一次，KDE Plasma 每月更新一次，KDE Frameworks 
 
 #### 相关的 Ports
 
-KDE 生态系统包括各种 port  —— 大多数由 kde@ 维护，所有这些 port 都建立在共享的 Qt 和 KDE Frameworks 基础上。kde@ 团队根据需要更新它们。例如，本季度 tcberner@ 和 arrowd@ 更新或修复了（远不止于此的）以下一系列 port ：
+KDE 生态系统包括各种 port —— 大多数由 kde@ 维护，所有这些 port 都建立在共享的 Qt 和 KDE Frameworks 基础上。kde@ 团队根据需要更新它们。例如，本季度 tcberner@ 和 arrowd@ 更新或修复了（远不止于此的）以下一系列 port ：
 
 - [astro/merkaartor](https://cgit.freebsd.org/ports/tree/astro/merkaartor/)
 - [devel/massif-visualizer](https://cgit.freebsd.org/ports/tree/devel/massif-visualizer/)
@@ -1005,7 +961,7 @@ KDE 生态系统包括各种 port  —— 大多数由 kde@ 维护，所有这�
 
 #### 弃用
 
-Web 浏览器庞大，并且具有相当大的安全性。备受尊敬的 [www/qt5-webkit](https://cgit.freebsd.org/ports/tree/www/qt5-webkit/) WebKit  port 已计划删除，并且已将其用户移至 WebEngine。我们依赖的 WebKit 分支已不再得到积极维护。
+Web 浏览器庞大，并且具有相当大的安全性。备受尊敬的 [www/qt5-webkit](https://cgit.freebsd.org/ports/tree/www/qt5-webkit/) WebKit port 已计划删除，并且已将其用户移至 WebEngine。我们依赖的 WebKit 分支已不再得到积极维护。
 
 ### FreeBSD 上的 Pantheon 桌面
 
@@ -1044,8 +1000,6 @@ Pantheon 桌面环境是为 elementary OS 设计的。它基于 GNOME 技术（�
 - deskutils/nimbus，天气小部件
 - audio/leopod，播客客户端
 
----
-
 ### FreeBSD Office 团队
 
 链接：
@@ -1063,7 +1017,7 @@ FreeBSD Office 团队致力于开发一系列办公相关的软件套件和工�
 
 在本季度，工作重点是为所有 FreeBSD 用户提供最新稳定版本的 LibreOffice 套件和配套应用程序。
 
-在 2023Q3 期间，我们为 LibreOffice  port 推送了维护补丁，并将最新的 7.6.2 版本及其所有配套库，如 MDDS、libIxion 等，带入了 ports 树。LibreOffice  port 的所有预发布开发都在 [LibreOffice WIP 仓库](https://github.com/freebsd/freebsd-ports-libreoffice) 中进行。
+在 2023Q3 期间，我们为 LibreOffice port 推送了维护补丁，并将最新的 7.6.2 版本及其所有配套库，如 MDDS、libIxion 等，带入了 ports 树。LibreOffice port 的所有预发布开发都在 [LibreOffice WIP 仓库](https://github.com/freebsd/freebsd-ports-libreoffice) 中进行。
 
 与 LibreOffice 一起，我们还将 Boost 更新到最新的 1.83 版本。所有对 Boost 的移植感兴趣的人都可以向 [Boost WIP 仓库](https://github.com/fluffykhv/freebsd-ports-boost) 提交补丁。
 
@@ -1080,7 +1034,7 @@ FreeBSD Office 团队致力于开发一系列办公相关的软件套件和工�
 
 [项目 GitHub 页面](https://github.com/pgj/freebsd-wifibox) URL: [https://github.com/pgj/freebsd-wifibox](https://github.com/pgj/freebsd-wifibox)
 
-[net/wifibox  port ](https://cgit.freebsd.org/ports/tree/net/wifibox) URL: [https://cgit.freebsd.org/ports/tree/net/wifibox](https://cgit.freebsd.org/ports/tree/net/wifibox)
+[net/wifibox port ](https://cgit.freebsd.org/ports/tree/net/wifibox) URL: [https://cgit.freebsd.org/ports/tree/net/wifibox](https://cgit.freebsd.org/ports/tree/net/wifibox)
 
 联系人：PÁLI Gábor János <[pali.gabor@gmail.com](mailto:pali.gabor@gmail.com)>
 
@@ -1096,8 +1050,6 @@ Wifibox 是一个实验性项目，用于探索在 FreeBSD 主机系统上部署
 Wifibox 主要经过了对 Intel 芯片组的测试，并显示出很好的性能和稳定性。因此，在 FreeBSD 完善对这些芯片组的支持之前，它可能是一个过渡性的解决方案。
 
 已确认 Wifibox 与 Atheros、Realtek 和 Mediatek 芯片组一起工作，欢迎反馈其他芯片组的情况。Broadcom 芯片（MacBook Pro 通常使用）也可以使用，但已知存在稳定性问题。
-
----
 
 ### FreeBSD 上的 GCC
 
@@ -1123,11 +1075,9 @@ Wifibox 主要经过了对 Intel 芯片组的测试，并显示出很好的性�
 - [lang/gcc12](https://cgit.freebsd.org/ports/tree/lang/gcc12/) 到版本 12.3.0;
 - [lang/gcc13](https://cgit.freebsd.org/ports/tree/lang/gcc13/) 到版本 13.2.0。
 
-读者可能还记得我计划在 GCC 13.1.0 发布后立即将默认版本更新为 GCC 13，但可以注意到 GCC 开发人员在我努力处理 GCC  port 时更快地发布了 13.2.0 版本。
+读者可能还记得我计划在 GCC 13.1.0 发布后立即将默认版本更新为 GCC 13，但可以注意到 GCC 开发人员在我努力处理 GCC port 时更快地发布了 13.2.0 版本。
 
 在测试运行中报告的大多数错误都是由同一错误引起的：`error: expected identifier before '__is_convertible'`。似乎问题是 FreeBSD 12 的 libcxx 与 GCC 13 标头之间的不兼容性。请查看[测试运行中的讨论](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=273397) 获取更多信息，并提供你的反馈。
-
----
 
 ### Valgrind：为 FreeBSD 15 更新 valgrind-devel
 
@@ -1158,15 +1108,13 @@ Wifibox 主要经过了对 Intel 芯片组的测试，并显示出很好的性�
 
 GitLab 是一个 DevOps 平台。它为团队带来了高效的速度，充满信心的开发过程，无需牺牲安全性，并提供对 DevOps 成功的全面可见性。
 
-版本 16.3 现在在 FreeBSD 上可用，请查看 [www/gitlab-ce](https://cgit.freebsd.org/ports/tree/www/gitlab-ce/)  port 。升级非常重要，因为版本 16.3 将是以后所有升级的要求。只有从 GitLab 16.3 才能升级到 16.4。
+版本 16.3 现在在 FreeBSD 上可用，请查看 [www/gitlab-ce](https://cgit.freebsd.org/ports/tree/www/gitlab-ce/) port 。升级非常重要，因为版本 16.3 将是以后所有升级的要求。只有从 GitLab 16.3 才能升级到 16.4。
 
 可以在 [https://gitlab.fechner.net/mfechner/Gitlab-docu/-/blob/master/install/16.3-freebsd.md?ref_type=heads](https://gitlab.fechner.net/mfechner/Gitlab-docu/-/blob/master/install/16.3-freebsd.md?ref_type=heads) 找到。升级的文档可在 [https://gitlab.fechner.net/mfechner/Gitlab-docu/-/blob/master/update/16.1-16.3-freebsd.md?ref_type=heads](https://gitlab.fechner.net/mfechner/Gitlab-docu/-/blob/master/update/16.1-16.3-freebsd.md?ref_type=heads) 找到安装文档。
 
 我将等到 16.4 版本升级（预计在 20.9 或 22.9 左右发布，不确定），直到创建 ports 的 _quarterly_ 分支 2023Q4，以避免破坏不使用主分支 (_latest_) 的系统。GitLab 用户应始终选择主分支，如安装手册中所述。
 
----
-
-### PortOptsCLI — Ports  可访问性
+### PortOptsCLI — Ports 可访问性
 
 链接：
 
@@ -1180,15 +1128,13 @@ FreeBSD 提供了 Ports，为用户和管理员提供了一种安装应用程序
 
 不幸的是，屏幕阅读器在 TUI 中表现不佳；这是一个众所周知的可访问性问题。FreeBSD 提供了数以万计的 port； port 配置是一个关键功能，但对于视力受损的用户而言是不可访问的。
 
-PortOptsCLI（Port Options CLI）是一个通过命令行界面设置 port 选项的新实用程序。确切地说，PortOptsCLI 提供了导航配置对话框（复选框和/或单选按钮）并通过交互方式设置其项目的命令。它也适用于语音合成器；目前已与 [accessibility/orca](https://cgit.freebsd.org/ports/tree/accessibility/orca/) 进行了测试。可以通过 [ports-mgmt/portoptscli](https://cgit.freebsd.org/ports/tree/ports-mgmt/portoptscli/)  port 或软件包安装 PortOptsCLI 。
+PortOptsCLI（Port Options CLI）是一个通过命令行界面设置 port 选项的新实用程序。确切地说，PortOptsCLI 提供了导航配置对话框（复选框和/或单选按钮）并通过交互方式设置其项目的命令。它也适用于语音合成器；目前已与 [accessibility/orca](https://cgit.freebsd.org/ports/tree/accessibility/orca/) 进行了测试。可以通过 [ports-mgmt/portoptscli](https://cgit.freebsd.org/ports/tree/ports-mgmt/portoptscli/) port 或软件包安装 PortOptsCLI 。
 
 欢迎提供建议和新想法。如果可能，请将报告发送到 FreeBSD 可访问性邮件列表，以在公共位置共享和跟踪讨论。
 
 ## 第三方项目
 
 许多项目基于 FreeBSD 或将 FreeBSD 的组件纳入其项目中。由于这些项目可能对更广泛的 FreeBSD 社区感兴趣，因此我们有时会在季度报告中包含这些项目提交的简要更新。FreeBSD 项目对这些提交中的任何声明的准确性或真实性不作表示。
-
----
 
 ### 介绍 BSD Cafe 项目
 
@@ -1222,12 +1168,6 @@ BSD Cafe 将成为由 \*BSD 驱动的各种工具和服务的中心。
 
 最近，已进行了 Miniflux 安装，因此 BSD Cafe 用户可以将其用作个人 RSS 订阅阅读器。更多信息：[https://wiki.bsd.cafe/miniflux-bsd-cafe](https://wiki.bsd.cafe/miniflux-bsd-cafe)。
 
----
-
----
-
----
-
 ### 容器与 FreeBSD：Pot、Potluck 和 Potman
 
 链接：
@@ -1250,14 +1190,12 @@ Potluck 的目标是成为 FreeBSD 和 Pot 的 Dockerhub：Pot 的风味和完�
 
 提供了相当多的新容器镜像，例如 [Caddy S3 代理](https://github.com/bsdpot/potluck/tree/master/caddy-s3-nomad)、[Mastodon 实例](https://github.com/bsdpot/potluck/tree/master/mastodon-s3) 和 [Redis 容器](https://github.com/bsdpot/potluck/tree/master/redis-single)。总共有 50 个容器可供使用，可以在 [Potluck 镜像注册表](https://potluck.honeyguide.net/) 中下载为现成的镜像（如果你信任我们的构建过程），或者可以从 [Potluck GitHub 仓库](https://github.com/bsdpot/potluck) 中存储的 Pot 风味文件中自行构建。
 
-2023 年 7 月 / 8 月的 FreeBSD Journal 包含了 Luca 的 [使用 pot 和 nomad 进行 Jail编排](https://freebsdfoundation.org/wp-content/uploads/2023/08/Pizzamiglio.pdf) 文章，解释了如何使用 Pot 和 Potluck 与 Nomad 一起在多个主机上进行容器编排。
+2023 年 7 月 / 8 月的 FreeBSD Journal 包含了 Luca 的 [使用 pot 和 nomad 进行 Jail 编排](https://freebsdfoundation.org/wp-content/uploads/2023/08/Pizzamiglio.pdf) 文章，解释了如何使用 Pot 和 Potluck 与 Nomad 一起在多个主机上进行容器编排。
 
-最后但同样重要的是，一个补丁（[90b1184d93c8](https://cgit.freebsd.org/ports/commit/?id=90b1184d93c8)）为 [devel/sccache](https://cgit.freebsd.org/ports/tree/devel/sccache/)  port 添加了构建集群支持。
+最后但同样重要的是，一个补丁（[90b1184d93c8](https://cgit.freebsd.org/ports/commit/?id=90b1184d93c8)）为 [devel/sccache](https://cgit.freebsd.org/ports/tree/devel/sccache/) port 添加了构建集群支持。
 
 一如既往，欢迎反馈和补丁。
 
 赞助商：Nikulipe UAB，Honeyguide Group
-
----
 
 **最后修改于**：2023 年 11 月 7 日，由 [Lorenzo Salvadore](https://cgit.freebsd.org/doc/commit/?id=6dda2e9ab0)
