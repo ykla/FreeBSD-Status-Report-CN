@@ -341,7 +341,7 @@ FreeBSD CI 团队负责维护 FreeBSD 项目的持续集成系统。CI 系统检
 
 关于 FreeBSD ports 网址：https://www.FreeBSD.org/ports/
 
-贡献 Port 的 网址：https://docs.freebsd.org/en/articles/contributing/#ports-contributing
+贡献 Port 的网址：https://docs.freebsd.org/en/articles/contributing/#ports-contributing
 
 FreeBSD Ports 监控 网址：http://portsmon.freebsd.org/
 
