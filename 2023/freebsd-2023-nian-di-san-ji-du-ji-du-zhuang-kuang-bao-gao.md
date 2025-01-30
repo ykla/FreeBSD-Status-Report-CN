@@ -1038,7 +1038,7 @@ FreeBSD Office 团队致力于开发一系列办公相关的软件套件和工�
 
 联系人：PÁLI Gábor János <[pali.gabor@gmail.com](mailto:pali.gabor@gmail.com)>
 
-Wifibox 是一个实验性项目，用于探索在 FreeBSD 主机系统上部署虚拟化 Linux 客户端以驱动无线网络卡的方法。已有一些指南说明如何手动设置此项，而 Wifibox 的目标是将这些想法实现为一个易于使用的单一软件包。
+Wifibox 是一个实验性项目，用于探索在 FreeBSD 主机系统上部署虚拟化 Linux 客户端以驱动无线网卡的方法。已有一些指南说明如何手动设置此项，而 Wifibox 的目标是将这些想法实现为一个易于使用的单一软件包。
 
 - 它使用 [bhyve(8)](https://man.freebsd.org/cgi/man.cgi?query=bhyve&sektion=8&format=html) 运行嵌入式 Linux 系统。这有助于实现低资源占用。它需要具有 I/O MMU（AMD-Vi、Intel VT-d）的 x64 CPU，约 150 MB 物理内存，并且为客户端虚拟磁盘镜像提供一些可用的磁盘空间，根据情况可以仅为约 30 MB。它与 FreeBSD 12 及更高版本兼容，但某些网卡可能需要 FreeBSD 13。
 - 客户端使用 [Alpine Linux](https://alpinelinux.org/) 构建，这是一个基于 [musl libc](https://www.musl-libc.org/) 和 [BusyBox](https://busybox.net/) 的面向安全的轻量级发行版，并导入了来自 [Arch Linux](https://archlinux.org/) 的一些自定义扩展和补丁。它附带了一些用于更好地管理正在使用的硬件的诊断工具。最新版本具有 Linux 6.1，但也提供 Linux 6.5 作为替代。
