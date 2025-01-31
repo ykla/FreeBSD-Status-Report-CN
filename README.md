@@ -1,5 +1,6 @@
-# FreeBSD-Status-Report-CN
-FreeBSD 季度报告中文
+# FreeBSD 中文状态报告
+
+文档部署地址：<https://book.bsdcn.org>
 
 ## 翻译项目一览表
 
