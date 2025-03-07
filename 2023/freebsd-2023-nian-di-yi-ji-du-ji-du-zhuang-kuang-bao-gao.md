@@ -751,7 +751,7 @@ FreshPorts 和 FreshSource 已对 FreeBSD 的提交进行了长达 20 年的跟�
 
 FreshPorts 跟踪提交情况，并从各个 Port 的 Makefile 中提取数据，以创建一个对 Ports 维护者和使用者都非常有用的信息数据库。
 
-例如，[https://www.freshports.org/security/acme.sh/](https://www.freshports.org/security/acme.sh/) 展示了  Port [security/acme.sh](https://cgit.freebsd.org/ports/tree/security/acme.sh/) 的历史记录，可以追溯到该  Port 于 2017 年 5 月创建时。同时，还提供了依赖关系、风味、配置选项和可用软件包等信息。这一切对 Ports 的用户和开发者都非常有用。
+例如，[https://www.freshports.org/security/acme.sh/](https://www.freshports.org/security/acme.sh/) 展示了  Port [security/acme.sh](https://cgit.freebsd.org/ports/tree/security/acme.sh/) 的历史记录，可以追溯到该  Port 于 2017 年 5 月创建时。同时，还提供了依赖关系、 flavor 、配置选项和可用软件包等信息。这一切对 Ports 的用户和开发者都非常有用。
 
 #### SQL 注入攻击
 

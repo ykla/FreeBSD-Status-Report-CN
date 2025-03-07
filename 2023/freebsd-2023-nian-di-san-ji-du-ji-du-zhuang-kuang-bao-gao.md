@@ -1186,9 +1186,9 @@ Pot 是一个 Jail 管理工具，[还支持通过 Nomad 进行编排](https://w
 
 此外，发布了 [Nomad Pot Driver 0.9.1](https://github.com/bsdpot/nomad-pot-driver/releases/tag/v0.9.1)，该驱动程序允许在 Nomad 作业说明中设置 Pot 属性。
 
-Potluck 的目标是成为 FreeBSD 和 Pot 的 Dockerhub：Pot 的风味和完整的容器镜像的存储库，可用于 Pot 以及许多情况下的 Nomad。
+Potluck 的目标是成为 FreeBSD 和 Pot 的 Dockerhub：Pot 的 flavor 和完整的容器镜像的存储库，可用于 Pot 以及许多情况下的 Nomad。
 
-提供了相当多的新容器镜像，例如 [Caddy S3 代理](https://github.com/bsdpot/potluck/tree/master/caddy-s3-nomad)、[Mastodon 实例](https://github.com/bsdpot/potluck/tree/master/mastodon-s3) 和 [Redis 容器](https://github.com/bsdpot/potluck/tree/master/redis-single)。总共有 50 个容器可供使用，可以在 [Potluck 镜像注册表](https://potluck.honeyguide.net/) 中下载为现成的镜像（如果你信任我们的构建过程），或者可以从 [Potluck GitHub 仓库](https://github.com/bsdpot/potluck) 中存储的 Pot 风味文件中自行构建。
+提供了相当多的新容器镜像，例如 [Caddy S3 代理](https://github.com/bsdpot/potluck/tree/master/caddy-s3-nomad)、[Mastodon 实例](https://github.com/bsdpot/potluck/tree/master/mastodon-s3) 和 [Redis 容器](https://github.com/bsdpot/potluck/tree/master/redis-single)。总共有 50 个容器可供使用，可以在 [Potluck 镜像注册表](https://potluck.honeyguide.net/) 中下载为现成的镜像（如果你信任我们的构建过程），或者可以从 [Potluck GitHub 仓库](https://github.com/bsdpot/potluck) 中存储的 Pot  flavor 文件中自行构建。
 
 2023 年 7 月 / 8 月的 FreeBSD 期刊包含了 Luca 的 [使用 pot 和 nomad 进行 Jail 编排](https://freebsdfoundation.org/wp-content/uploads/2023/08/Pizzamiglio.pdf) 文章，解释了如何使用 Pot 和 Potluck 与 Nomad 一起在多个主机上进行容器编排。
 
