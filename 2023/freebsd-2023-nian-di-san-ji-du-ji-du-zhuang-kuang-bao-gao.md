@@ -895,9 +895,7 @@ Handbook 中已添加了新的 `USES` 标记：
 ### FreeBSD 专家系统
 
 链接：
-[FreeBSD 专家系统](https://github.com/Wang-Yan-Hao/freebsd_expert_system) URL: [https://github.com/Wang-Yan
-
--Hao/freebsd_expert_system](https://github.com/Wang-Yan-Hao/freebsd_expert_system)
+[FreeBSD 专家系统](https://github.com/Wang-Yan-Hao/freebsd_expert_system) URL: [https://github.com/Wang-Yan-Hao/freebsd_expert_system](https://github.com/Wang-Yan-Hao/freebsd_expert_system)
 
 联系人：Yan-Hao Wang <[bses30074@gmail.com](mailto:bses30074@gmail.com)>联系人：許立文 <[lwhsu@FreeBSD.org](mailto:lwhsu@FreeBSD.org)>
 
