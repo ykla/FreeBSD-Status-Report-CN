@@ -994,7 +994,7 @@ FreeBSD Office 团队致力于办公相关软件套件和工具，如 OpenOffice
 
 [net/wifibox Port](https://cgit.freebsd.org/ports/tree/net/wifibox) URL: [https://cgit.freebsd.org/ports/tree/net/wifibox](https://cgit.freebsd.org/ports/tree/net/wifibox)
 
-联系人：PÁLI Gábor János [pali.gabor@gmail.com](mailto:pali.gabor@gmail.com)](%[5Bpali.gabor@gmail.com](mailto:5Bpali.gabor@gmail.com)%5D(mailto:pali[.gabor@gmail.com](mailto:.gabor@gmail.com)))
+联系人：PÁLI Gábor János [pali.gabor@gmail.com](mailto:pali.gabor@gmail.com)
 
 Wifibox 是一项实验性项目，用于探索在 FreeBSD 主机系统上通过虚拟化 Linux 客机驱动无线网卡的方法。已有手动设置指南，而 Wifibox 旨在将这些想法整合为一个易于使用的软件包。
 
@@ -1015,11 +1015,11 @@ Wifibox 已在 Intel 芯片组上进行了大量测试，表现出良好的性�
 
 [Pot 组织 GitHub 页面](https://github.com/bsdpot) URL: [https://github.com/bsdpot](https://github.com/bsdpot)
 
-联系人：Luca Pizzamiglio (Pot) [pizzamig@FreeBSD.org](mailto:pizzamig@FreeBSD.org)](%[5Bpizzamig@FreeBSD.org](mailto:5Bpizzamig@FreeBSD.org)%5D(mailto:pizzamig@FreeBSD.org))
+联系人：Luca Pizzamiglio (Pot) [pizzamig@FreeBSD.org](mailto:pizzamig@FreeBSD.org)
 
-联系人：Bretton Vine (Potluck) [bv@honeyguide.eu](mailto:bv@honeyguide.eu)](%[5Bbv@honeyguide.eu](mailto:5Bbv@honeyguide.eu)%5D(mailto:bv@honeyguide.eu))
+联系人：Bretton Vine (Potluck) [bv@honeyguide.eu](mailto:bv@honeyguide.eu)
 
-联系人：Michael Gmelin (Potman) [grembo@FreeBSD.org](mailto:grembo@FreeBSD.org)](%[5Bgrembo@FreeBSD.org](mailto:5Bgrembo@FreeBSD.org)%5D(mailto:grembo@FreeBSD.org))
+联系人：Michael Gmelin (Potman) [grembo@FreeBSD.org](mailto:grembo@FreeBSD.org)
 
 
 Pot 是一款 jail 管理工具，同时支持通过 Nomad 进行编排。[详细说明](https://www.freebsd.org/news/status/report-2020-01-2020-03/#pot-and-the-nomad-pot-driver)。
