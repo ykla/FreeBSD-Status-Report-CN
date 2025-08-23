@@ -572,7 +572,7 @@ Capsicum 化的第一步逻辑是确定程序在哪些地方触发了能力违�
 1603 foo      CAP   attempt to increase capabilities from CAP_READ to CAP_READ,CAP_WRITE
 ```
 
-前七条 “system call not allowed” 记录并非直接源自程序代码 `cap_violate`，而是由 FreeBSD 的 C 运行时库触发的。当你使用 `-t np` 选项同时追踪 namei 转换和能力违规时，这一点就显而易见：
+前七条“system call not allowed”记录并非直接源自程序代码 `cap_violate`，而是由 FreeBSD 的 C 运行时库触发的。当你使用 `-t np` 选项同时追踪 namei 转换和能力违规时，这一点就显而易见：
 
 ```sh
 # ktrace -t np ./cap_violate
@@ -748,7 +748,7 @@ nvmf2 分支的工作包括用户态库 (**lib/libnvmf**)，该库包含传输�
 
 分支还包含内核态的 Fabric 实现。**nvmf_transport.ko** 提供传输抽象，位于 nvmf 主机（SCSI 术语中的 initiator）与各个传输之间。**nvmf_tcp.ko** 实现 TCP 传输层。**nvmf.ko** 实现 NVMe over Fabrics host（initiator），连接远程控制器并将远程命名空间导出为磁盘设备。与 NVMe PCI-e 驱动 [nvme(4)(https://man.freebsd.org/cgi/man.cgi?query=nvme&sektion=4&format=html) 类似，命名空间通过 **/dev/nvmeXnsY** 设备导出，仅支持简单操作，同时通过 CAM 导出为 ndaX 磁盘设备。不同于 [nvme(4)(https://man.freebsd.org/cgi/man.cgi?query=nvme&sektion=4&format=html)，[nvmf(4)(https://man.freebsd.org/cgi/man.cgi?query=nvmf&sektion=4&format=html) 不支持 [nvd(4)(https://man.freebsd.org/cgi/man.cgi?query=nvd&sektion=4&format=html) 驱动。[nvmecontrol(8)(https://man.freebsd.org/cgi/man.cgi?query=nvmecontrol&sektion=8&format=html) 可用于远程命名空间和控制器，例如获取日志页、显示 identify 信息等。
 
-需要注意的是，[nvmf(4)(https://man.freebsd.org/cgi/man.cgi?query=nvmf&sektion=4&format=html) 当前实现较简单，一些错误处理仍为待办事项O。如果发生错误，队列（及其网络连接）会被丢弃，但设备仍保留，I/O 请求暂停。可使用 `nvmecontrol reconnect` 重新连接网络连接以恢复操作。与 iSCSI 使用持久守护进程 ([iscsid(8)(https://man.freebsd.org/cgi/man.cgi?query=iscsid&sektion=8&format=html)) 不同，重连需手动进行。
+需要注意的是，[nvmf(4)(https://man.freebsd.org/cgi/man.cgi?query=nvmf&sektion=4&format=html) 当前实现较简单，一些错误处理仍为待办事项 O。如果发生错误，队列（及其网络连接）会被丢弃，但设备仍保留，I/O 请求暂停。可使用 `nvmecontrol reconnect` 重新连接网络连接以恢复操作。与 iSCSI 使用持久守护进程 ([iscsid(8)(https://man.freebsd.org/cgi/man.cgi?query=iscsid&sektion=8&format=html)) 不同，重连需手动进行。
 
 当前代码非常新，可能不够健壮，尚不适合生产环境。经验丰富且愿意承担内核 panic 导致数据丢失风险的用户，可自行测试 NVMe-oF。
 
@@ -891,7 +891,7 @@ SquashFS 是一种只读文件系统，可高效压缩整个文件系统或单�
 
 #### 回溯 OpenBSD 语法
 
-Kajetan 引入了 OpenBSD 风格的“scrub”操作语法，可用于 “match” 和 “pass” 规则。现有规则仍受支持，但现在也支持 OpenBSD 风格的 “scrub” 配置。
+Kajetan 引入了 OpenBSD 风格的“scrub”操作语法，可用于“match”和“pass”规则。现有规则仍受支持，但现在也支持 OpenBSD 风格的“scrub”配置。
 
 #### pfsync 协议版本控制
 
@@ -1089,7 +1089,7 @@ POC 构建指南可在 [docs 仓库](https://github.com/openstack-on-freebsd/doc
 * FreeBSD-CURRENT-gen2-testing
 * FreeBSD-CURRENT-arm64-testing
 
-使用方法：创建虚拟机时，在 “Select an Image” 步骤选择 “Community Images (PREVIEW)” 并搜索 `FreeBSD`。
+使用方法：创建虚拟机时，在“Select an Image”步骤选择“Community Images (PREVIEW)”并搜索 `FreeBSD`。
 
 进行中的任务：
 
@@ -1125,13 +1125,13 @@ POC 构建指南可在 [docs 仓库](https://github.com/openstack-on-freebsd/doc
 
 联系人：Colin Percival [cperciva@FreeBSD.org](mailto:cperciva@FreeBSD.org)
 
-可在 x86（Intel 与 AMD）和 ARM64（Graviton）EC2 实例上运行 FreeBSD 。工作仍在继续，以确保新发布的实例类型能够得到支持，包括最近宣布的 M7a “EPYC” 实例，这些实例将在 FreeBSD 14.0-RELEASE 中获得支持。
+可在 x86（Intel 与 AMD）和 ARM64（Graviton）EC2 实例上运行 FreeBSD。工作仍在继续，以确保新发布的实例类型能够得到支持，包括最近宣布的 M7a“EPYC”实例，这些实例将在 FreeBSD 14.0-RELEASE 中获得支持。
 
-每周 FreeBSD 快照最近已从 “UEFI” 启动模式更改为 “UEFI Preferred” 启动模式，从而在支持“裸机”和“上一代”不兼容 UEFI 的实例类型的同时，享受 UEFI 带来的启动性能提升。此更改将在 FreeBSD 14.0-RELEASE 中体现。
+每周 FreeBSD 快照最近已从“UEFI”启动模式更改为“UEFI Preferred”启动模式，从而在支持“裸机”和“上一代”不兼容 UEFI 的实例类型的同时，享受 UEFI 带来的启动性能提升。此更改将在 FreeBSD 14.0-RELEASE 中体现。
 
 EC2 启动脚本最近已更新以支持 IMDSv2，该更新也将在 FreeBSD 14.0-RELEASE 中生效。
 
-若 FreeBSD 13.2 用户需要这些更新，作者可提供 FreeBSD “13.2-RELEASE plus updates” AMI。
+若 FreeBSD 13.2 用户需要这些更新，作者可提供 FreeBSD“13.2-RELEASE plus updates”AMI。
 
 此工作由 Colin 的 FreeBSD/EC2 Patreon 赞助。
 
@@ -1219,7 +1219,7 @@ FreeBSD Weblate 实例现运行在专用服务器上，显著提高速度和翻�
 1. 文档门户重新设计
    创建响应式新设计，并增加全局搜索功能。（*已完成*）
 2. Web 上手册页重新设计
-   使用 mandoc 生成 HTML 页面脚本。（*已完成*） 公共实例：[https://man-dev.FreeBSD.org](https://man-dev.freebsd.org/)
+   使用 mandoc 生成 HTML 页面脚本。（*已完成*）公共实例：[https://man-dev.FreeBSD.org](https://man-dev.freebsd.org/)
 3. Web 上 Ports 页面重新设计
    Ports 脚本创建应用门户。（*进行中*）
 4. FreeBSD 主网站重新设计

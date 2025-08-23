@@ -558,7 +558,7 @@ blued 由三个部分组成：库、守护进程和命令行工具。库抽象�
 
 测试 blued 时，获取 [blued v0.1 源代码](https://git.lysator.liu.se/kempe/blued/-/releases/v0.1)，然后编译，使用 **kernel\_patches** 中的补丁打补丁 FreeBSD 内核，并按 **README** 中说明重新编译 `hci` 模块。
 
-我主要在 FreeBSD 12.3 上测试了 blued，但在测试 13.1 时补丁也能干净应用。目前没有提供 Port，但可以直接从构建目录运行软件，或执行 “make install” 安装所有所需文件。blued 和 bluecontrol 都使用 capsicum，并且 blued 可以配置以降低 root 权限。
+我主要在 FreeBSD 12.3 上测试了 blued，但在测试 13.1 时补丁也能干净应用。目前没有提供 Port，但可以直接从构建目录运行软件，或执行“make install”安装所有所需文件。blued 和 bluecontrol 都使用 capsicum，并且 blued 可以配置以降低 root 权限。
 
 更多信息请参阅 **README** 的 `Running blued` 部分。
 
