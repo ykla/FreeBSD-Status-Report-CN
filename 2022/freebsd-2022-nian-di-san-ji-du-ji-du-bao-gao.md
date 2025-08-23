@@ -70,9 +70,9 @@ Matrix 实例及 Element-web 客户端的测试仍在进行。
 
 [基金会活动](https://freebsdfoundation.org/our-work/events/) URL: [https://freebsdfoundation.org/our-work/events/](https://freebsdfoundation.org/our-work/events/)
 
-联系方式：Deb Goodkin [deb@FreeBSDFoundation.org](mailto:deb@FreeBSDFoundation.org)(%[5Bdeb@FreeBSDFoundation.org](mailto:5Bdeb@FreeBSDFoundation.org)%5D(mailto:deb@FreeBSDFoundation.org))
+联系方式：Deb Goodkin [deb@FreeBSDFoundation.org](mailto:deb@FreeBSDFoundation.org)](%[5Bdeb@FreeBSDFoundation.org](mailto:5Bdeb@FreeBSDFoundation.org)%5D(mailto:deb@FreeBSDFoundation.org))
 
-FreeBSD 基金会是一家 501(c)(3) 非营利组织，致力于支持和推广 FreeBSD 项目及全球社区。个人和企业的捐赠用于资助和管理软件开发项目、会议和开发者峰会。基金会还为 FreeBSD 贡献者提供差旅资助，购买并支持硬件以改善和维护 FreeBSD 基础设施，并提供资源以提升安全性、质量保证和集群管理能力。基金会发布宣传资料以推广、教育和倡导 FreeBSD，促进商业厂商与 FreeBSD 开发者之间的合作，并代表 FreeBSD 项目执行合同、许可协议及其他需要法人实体的法律事务。
+FreeBSD 基金会是一家 501(c)](3) 非营利组织，致力于支持和推广 FreeBSD 项目及全球社区。个人和企业的捐赠用于资助和管理软件开发项目、会议和开发者峰会。基金会还为 FreeBSD 贡献者提供差旅资助，购买并支持硬件以改善和维护 FreeBSD 基础设施，并提供资源以提升安全性、质量保证和集群管理能力。基金会发布宣传资料以推广、教育和倡导 FreeBSD，促进商业厂商与 FreeBSD 开发者之间的合作，并代表 FreeBSD 项目执行合同、许可协议及其他需要法人实体的法律事务。
 
 本季度，我们协助 FreeBSD 庆祝 30 周年！这一庆祝活动推动我们加快了 FreeBSD 的发展与创新，同时让我们专注于确定关键投资领域。在九月的董事会会议上，我们细化了目标，重点放在提升 FreeBSD 的采用率和知名度、多元化资金来源，以及投资于社区健康和项目长期稳定性。目前，我们正在确定主要受众和目标市场，同时为这些目标制定可衡量的成果。
 
@@ -102,9 +102,9 @@ FreeBSD 基金会在全球范围内赞助许多会议、活动和峰会。这些
 
 * 2023 年 7 月 13-16 日，在波特兰的 [FOSSY](https://sfconservancy.org/fossy/) 举办研讨会并设立展台
 * 2023 年 7 月 27-29 日，在台湾新北市成为 COSCUP 友好级赞助商
-* 在 EuroBSDCon FreeBSD 开发者峰会上进行演讲，并在 [EuroBSDCon 2023](https://2023.eurobsdcon.org/)（2023 年 9 月 14-17 日，葡萄牙科英布拉）赞助并设立展台
-* 参加 [Open Source Summit, Europe](https://events.linuxfoundation.org/open-source-summit-europe/)（2023 年 9 月 19-21 日，西班牙毕尔巴鄂）
-* 继续筹备 [2023 年 11 月 FreeBSD 厂商峰会](https://freebsdfoundation.org/news-and-events/event-calendar/november-2023-freebsd-vendor-summit/)（11 月 2-3 日，加州圣何塞）
+* 在 EuroBSDCon FreeBSD 开发者峰会上进行演讲，并在 [EuroBSDCon 2023](https://2023.eurobsdcon.org/)](2023 年 9 月 14-17 日，葡萄牙科英布拉）赞助并设立展台
+* 参加 [Open Source Summit, Europe](https://events.linuxfoundation.org/open-source-summit-europe/)](2023 年 9 月 19-21 日，西班牙毕尔巴鄂）
+* 继续筹备 [2023 年 11 月 FreeBSD 厂商峰会](https://freebsdfoundation.org/news-and-events/event-calendar/november-2023-freebsd-vendor-summit/)](11 月 2-3 日，加州圣何塞）
 * 持续管理谷歌编程之夏项目
 * 发布 [七月通讯](https://freebsdfoundation.org/news-and-events/newsletter/freebsd-foundation-update-july-2023/)
 * 其他博客文章
@@ -144,7 +144,7 @@ FreeBSD 基金会在全球范围内赞助许多会议、活动和峰会。这些
 
 六个暑期实习/项目顺利结束：
 
-* [Jake Freeland](https://freebsdfoundation.org/blog/meet-freebsd-foundation-2023-summer-intern-jake-freeland/) 在暑期参与 [Capsicum 项目](https://freebsdfoundation.org/project/capsicum-internship/)，进行违规追踪、适配各类守护进程如 [syslogd(8)(https://man.freebsd.org/cgi/man.cgi?query=syslogd&sektion=8&format=html)，并编写文档。
+* [Jake Freeland](https://freebsdfoundation.org/blog/meet-freebsd-foundation-2023-summer-intern-jake-freeland/) 在暑期参与 [Capsicum 项目](https://freebsdfoundation.org/project/capsicum-internship/)，进行违规追踪、适配各类守护进程如 [syslogd(8)](https://man.freebsd.org/cgi/man.cgi?query=syslogd&sektion=8&format=html)，并编写文档。
 * [Naman Sood](https://freebsdfoundation.org/blog/meet-the-summer-2023-university-of-waterloo-co-op-student-naman-sood/) 完成了[各种任务，主要与网络相关](https://freebsdfoundation.org/project/networking-summer-internship/)。
 * En-Wei Wu 完成了 [另一项无线网络实习](https://freebsdfoundation.org/project/wireless-internship/)，改进并扩展了 net80211(4) Wi-Fi 模拟器 wtap。
 * Yan-Hao Wang 参与了 [文档与测试项目](https://freebsdfoundation.org/project/documentation-and-testing-internship/)，如构建在线 man 页编辑器并为部分用户空间工具添加测试用例。
@@ -156,13 +156,13 @@ FreeBSD 基金会在全球范围内赞助许多会议、活动和峰会。这些
 本季度完成的其他基金会赞助工作示例：
 
 * 改进 riscv64 CPU 身份与特性检测
-* 从零重写 [intro(9)(https://man.freebsd.org/cgi/man.cgi?query=intro&sektion=9&format=html) man 页
-* 对 [hwpmc(4)(https://man.freebsd.org/cgi/man.cgi?query=hwpmc&sektion=4&format=html) 模块以及 [pmc(3)(https://man.freebsd.org/cgi/man.cgi?query=pmc&sektion=3&format=html) 库和工具进行代码维护与 bug 修复
-* 提交多项 [freebsd-update(8)(https://man.freebsd.org/cgi/man.cgi?query=freebsd-update&sektion=8&format=html) 修复，为 FreeBSD 14.0 做准备
+* 从零重写 [intro(9)](https://man.freebsd.org/cgi/man.cgi?query=intro&sektion=9&format=html) man 页
+* 对 [hwpmc(4)](https://man.freebsd.org/cgi/man.cgi?query=hwpmc&sektion=4&format=html) 模块以及 [pmc(3)](https://man.freebsd.org/cgi/man.cgi?query=pmc&sektion=3&format=html) 库和工具进行代码维护与 bug 修复
+* 提交多项 [freebsd-update(8)](https://man.freebsd.org/cgi/man.cgi?query=freebsd-update&sektion=8&format=html) 修复，为 FreeBSD 14.0 做准备
 * 对 LinuxKPI、iwlwifi 和 net802.11 代码提交 37 项更新与修复
 * 更新 SSH，先为 OpenSSH 9.3p2，再为 9.4p1
 * 修补 ssh-keygen，使其在无参数调用时生成 Ed25519 密钥
-* 添加 Linux [membarrier(2)(https://man.freebsd.org/cgi/man.cgi?query=membarrier&sektion=2&format=html) 系统调用的全新实现
+* 添加 Linux [membarrier(2)](https://man.freebsd.org/cgi/man.cgi?query=membarrier&sektion=2&format=html) 系统调用的全新实现
 * 将 amd64 和 arm64 的 MAXCPU 增加至 1024
 * 提交修复以防止受影响机器上 Zenbleed 自动误操作/数据泄露（通过 chicken bit）
 * 审查内核中调度优先级的使用情况，以强化 rtprio() 系统调用，并在某些情况下提高其实用性
@@ -191,7 +191,7 @@ FreeBSD 基金会在全球范围内赞助许多会议、活动和峰会。这些
 
 [FreeBSD 开发快照](https://download.freebsd.org/snapshots/ISO-IMAGES/) URL: [https://download.freebsd.org/snapshots/ISO-IMAGES/](https://download.freebsd.org/snapshots/ISO-IMAGES/)
 
-联系方式：FreeBSD 发布工程团队，[re@FreeBSD.org](mailto:re@FreeBSD.org)(%[5Bre@FreeBSD.org](mailto:5Bre@FreeBSD.org)%5D(mailto:re@FreeBSD.org))
+联系方式：FreeBSD 发布工程团队，[re@FreeBSD.org](mailto:re@FreeBSD.org)](%[5Bre@FreeBSD.org](mailto:5Bre@FreeBSD.org)%5D(mailto:re@FreeBSD.org))
 
 FreeBSD 发布工程团队负责制定并发布 FreeBSD 官方版本的发布计划、宣布代码冻结、维护相关分支等工作。
 
@@ -228,9 +228,9 @@ FreeBSD 发布工程团队负责制定并发布 FreeBSD 官方版本的发布计
 
 [dev-ci 邮件列表](https://lists.freebsd.org/subscription/dev-ci) URL: [https://lists.FreeBSD.org/subscription/dev-ci](https://lists.freebsd.org/subscription/dev-ci)
 
-联系方式：Jenkins 管理员 [jenkins-admin@FreeBSD.org](mailto:jenkins-admin@FreeBSD.org)(%[5Bjenkins-admin@FreeBSD.org](mailto:5Bjenkins-admin@FreeBSD.org)%5D(mailto:jenkins-admin@FreeBSD.org))
+联系方式：Jenkins 管理员 [jenkins-admin@FreeBSD.org](mailto:jenkins-admin@FreeBSD.org)](%[5Bjenkins-admin@FreeBSD.org](mailto:5Bjenkins-admin@FreeBSD.org)%5D(mailto:jenkins-admin@FreeBSD.org))
 
-联系方式：許立文 [lwhsu@FreeBSD.org](mailto:lwhsu@FreeBSD.org)(%[5Blwhsu@FreeBSD.org](mailto:5Blwhsu@FreeBSD.org)%5D(mailto:lwhsu@FreeBSD.org))
+联系方式：許立文 [lwhsu@FreeBSD.org](mailto:lwhsu@FreeBSD.org)](%[5Blwhsu@FreeBSD.org](mailto:5Blwhsu@FreeBSD.org)%5D(mailto:lwhsu@FreeBSD.org))
 
 联系方式：[freebsd-testing 邮件列表](https://lists.freebsd.org/mailman/listinfo/freebsd-testing)
 
@@ -341,7 +341,7 @@ Ports 数据树中对 FreeBSD 13.1 的支持已于 8 月 1 日达到生命周期
 
 [deskutils/qmediamanager](https://cgit.freebsd.org/ports/tree/deskutils/qmediamanager/) 与 [sysutils/devd-mount](https://cgit.freebsd.org/ports/tree/sysutils/devd-mount/) 和 [sysutils/npmount](https://cgit.freebsd.org/ports/tree/sysutils/npmount/) 配合使用，可在 devd 通知时挂载插入的媒体，并弹出窗口为用户提供查看文件系统信息、打开文件管理器、格式化、复制磁盘映像或卸载的选项，为使用 USB 等外部媒体提供方便且安全的操作方式。
 
-第四个新 port [deskutils/freebsd-update-notify](https://cgit.freebsd.org/ports/tree/deskutils/freebsd-update-notify/) 可在有新 base 更新可用或配置的时间限制到达时弹窗通知用户。如果用户选择更新，系统会通过 [auto-update-system(1)(https://man.freebsd.org/cgi/man.cgi?query=auto-update-system&sektion=1&format=html)（[sysutils/auto-admin](https://cgit.freebsd.org/ports/tree/sysutils/auto-admin/) 的功能）更新整个系统（包括 packages、ports 和 base）。
+第四个新 port [deskutils/freebsd-update-notify](https://cgit.freebsd.org/ports/tree/deskutils/freebsd-update-notify/) 可在有新 base 更新可用或配置的时间限制到达时弹窗通知用户。如果用户选择更新，系统会通过 [auto-update-system(1)](https://man.freebsd.org/cgi/man.cgi?query=auto-update-system&sektion=1&format=html)]([sysutils/auto-admin](https://cgit.freebsd.org/ports/tree/sysutils/auto-admin/) 的功能）更新整个系统（包括 packages、ports 和 base）。
 
 这些新工具让 FreeBSD 桌面体验更接近主流桌面操作系统的便利性。工具已稳定可靠，但仍需审查，欢迎用户对默认行为和配置选项提供反馈。
 
@@ -361,7 +361,7 @@ LLDB 内核模块改进项目（前一季度报告中提及）为 FreeBSD 内核
 
 该插件已完成开发，可正确加载从内核 coredump 提取的所有内核模块及其调试文件。
 
-插件已在 x86-64（可重定位类型内核模块）和 arm64(EC2)（共享库类型内核模块）平台测试，两者均表现良好。
+插件已在 x86-64（可重定位类型内核模块）和 arm64(EC2)](共享库类型内核模块）平台测试，两者均表现良好。
 
 当前，该插件准备通过 [LLVM PullRequest](https://github.com/llvm/llvm-project/pull/67106) 合入 LLVM 代码库。
 
@@ -389,7 +389,7 @@ LLDB 内核模块改进项目（前一季度报告中提及）为 FreeBSD 内核
 
 * 将 engines 和 legacy provider 与 libcrypto.so 共享对象链接，以确保符号可见性，为此在构建系统中 [需要应用 hack](https://cgit.freebsd.org/src/commit/Makefile.inc1?id=1a18383a52bc373e316d224cef1298debf6f7e25)
 * 修正 FIPS provider 的源文件列表
-* 确保对已废弃的 0.9.8 API 的向后兼容性，这对于基于 OpenSSH [ssh-agent(1)(https://man.freebsd.org/cgi/man.cgi?query=ssh-agent&sektion=1&format=html) 认证机制的 [security/pam_ssh_agent_auth](https://cgit.freebsd.org/ports/tree/security/pam_ssh_agent_auth/) PAM 模块尤其有用
+* 确保对已废弃的 0.9.8 API 的向后兼容性，这对于基于 OpenSSH [ssh-agent(1)](https://man.freebsd.org/cgi/man.cgi?query=ssh-agent&sektion=1&format=html) 认证机制的 [security/pam_ssh_agent_auth](https://cgit.freebsd.org/ports/tree/security/pam_ssh_agent_auth/) PAM 模块尤其有用
 
 ### 登录类修复与改进
 
@@ -401,7 +401,7 @@ LLDB 内核模块改进项目（前一季度报告中提及）为 FreeBSD 内核
 
 #### 背景
 
-登录类主要用于在用户登录时，根据其所属登录类设置各种进程属性和特性。登录类通常指定资源限制、环境变量以及进程属性，如调度优先级和 umask。详情见 [login.conf(5)(https://man.freebsd.org/cgi/man.cgi?query=login.conf&sektion=5&format=html)。
+登录类主要用于在用户登录时，根据其所属登录类设置各种进程属性和特性。登录类通常指定资源限制、环境变量以及进程属性，如调度优先级和 umask。详情见 [login.conf(5)](https://man.freebsd.org/cgi/man.cgi?query=login.conf&sektion=5&format=html)。
 
 #### 更改内容
 
@@ -414,7 +414,7 @@ LLDB 内核模块改进项目（前一季度报告中提及）为 FreeBSD 内核
 * 修复当 `priority` 指定实时优先级时，最终使用的优先级出现 off-by-one 错误（实时类中数值最高优先级 31 无法设置）
 * 安全性：防止 setuid/setgid 进程应用某些用户 **~/.login_conf** 中的指令（因权限不足而无法应用的指令可能在此类进程中被错误应用）
 
-相关手册页已更新以反映新功能，并改进了 [login.conf(5)(https://man.freebsd.org/cgi/man.cgi?query=login.conf&sektion=5&format=html) 中 `priority` 和 `umask` 的说明。
+相关手册页已更新以反映新功能，并改进了 [login.conf(5)](https://man.freebsd.org/cgi/man.cgi?query=login.conf&sektion=5&format=html) 中 `priority` 和 `umask` 的说明。
 
 #### 状态
 
@@ -438,7 +438,7 @@ LLDB 内核模块改进项目（前一季度报告中提及）为 FreeBSD 内核
 
 该项目有两个里程碑：
 
-第一个里程碑是使在使用日志软更新时能够创建快照，并可利用这些快照对运行中的文件系统执行后台转储。后台转储可通过向 [dump(8)(https://man.freebsd.org/cgi/man.cgi?query=dump&sektion=8&format=html) 使用 -L 参数来请求。此里程碑已于 2022 年第四季度完成，并在 13.2 版本中发布，具体情况见[2023 年第一季度报告](https://www.freebsd.org/status/report-2023-01-2023-03/#_enabling_snapshots_on_filesystems_using_journaled_soft_updates_in_13_2)。
+第一个里程碑是使在使用日志软更新时能够创建快照，并可利用这些快照对运行中的文件系统执行后台转储。后台转储可通过向 [dump(8)](https://man.freebsd.org/cgi/man.cgi?query=dump&sektion=8&format=html) 使用 -L 参数来请求。此里程碑已于 2022 年第四季度完成，并在 13.2 版本中发布，具体情况见[2023 年第一季度报告](https://www.freebsd.org/status/report-2023-01-2023-03/#_enabling_snapshots_on_filesystems_using_journaled_soft_updates_in_13_2)。
 
 第二个里程碑是在使用日志软更新的文件系统上利用快照进行后台检查。此里程碑已于 2023 年第三季度完成，并随 14.0 版本发布，同时也在 13.2-STABLE 版本中提供。
 
@@ -488,7 +488,7 @@ FreeBSD 实现了三种内置安全策略，用于限制特定用户可以看到
 
 第二种策略可以阻止非特权用户查看或操作其凭证中不包含用户所属组的进程。可以通过将 sysctl `security.bsd.see_other_gids` 设置为 0（默认值为 1）来启用。
 
-第三种策略可以阻止非特权用户的进程查看或操作位于严格子 jail 的进程。jail 子系统已经阻止此类进程查看非其子代 jail 中的进程（参见 [jail(8)(https://man.freebsd.org/cgi/man.cgi?query=jail&sektion=8&format=html) 特别是“Hierarchical Jails”章节）。此策略的一个可能用途是结合上述第一种策略，将子 jail 中真实 UID 与祖先 jail 中某些用户相同的进程隐藏，因为在逻辑上这些不同 jail 中拥有相同 UID 的用户被视为不同用户。可以通过将 sysctl `security.bsd.see_jail_proc` 设置为 0（默认值为 1）来启用。
+第三种策略可以阻止非特权用户的进程查看或操作位于严格子 jail 的进程。jail 子系统已经阻止此类进程查看非其子代 jail 中的进程（参见 [jail(8)](https://man.freebsd.org/cgi/man.cgi?query=jail&sektion=8&format=html) 特别是“Hierarchical Jails”章节）。此策略的一个可能用途是结合上述第一种策略，将子 jail 中真实 UID 与祖先 jail 中某些用户相同的进程隐藏，因为在逻辑上这些不同 jail 中拥有相同 UID 的用户被视为不同用户。可以通过将 sysctl `security.bsd.see_jail_proc` 设置为 0（默认值为 1）来启用。
 
 在对这些策略的代码进行审查并结合实际测试后，我们发现了一些问题和限制，因此对该主题进行了改进。
 
@@ -501,7 +501,7 @@ FreeBSD 实现了三种内置安全策略，用于限制特定用户可以看到
 
 由 `security.bsd.see_other_gids` 控制的策略已修复为在判断用户是否属于某进程的组时，考虑进程的真实组而非有效组。其理由是某些用户在通过 setgid 位获得额外权限时，仍应继续看到其启动的进程；反之，用户不应看到由特权用户启动且临时加入其主组的进程。此新行为与 `security.bsd.see_other_uids` 对用户 ID 一直采用的方式一致（即考虑进程的真实 UID，而非有效 UID）。
 
-我们已更新与这些安全策略相关的手册页，包括 [security(7)(https://man.freebsd.org/cgi/man.cgi?query=security&sektion=7&format=html)、[sysctl(8)(https://man.freebsd.org/cgi/man.cgi?query=sysctl&sektion=8&format=html) 和 [ptrace(2)(https://man.freebsd.org/cgi/man.cgi?query=ptrace&sektion=2&format=html)。若干内部函数的手册页（实现或利用这些策略的函数）也已改版。
+我们已更新与这些安全策略相关的手册页，包括 [security(7)](https://man.freebsd.org/cgi/man.cgi?query=security&sektion=7&format=html)、[sysctl(8)](https://man.freebsd.org/cgi/man.cgi?query=sysctl&sektion=8&format=html) 和 [ptrace(2)](https://man.freebsd.org/cgi/man.cgi?query=ptrace&sektion=2&format=html)。若干内部函数的手册页（实现或利用这些策略的函数）也已改版。
 
 #### 状态
 
@@ -523,7 +523,7 @@ FreeBSD 实现了三种内置安全策略，用于限制特定用户可以看到
 
 联系人：Dmitry Chagin [dchagin@FreeBSD.org](mailto:dchagin@FreeBSD.org)
 
-该项目旨在提升 FreeBSD 执行未修改 [linux(4)(https://man.freebsd.org/cgi/man.cgi?query=linux&sektion=4&format=html) 二进制文件的能力。
+该项目旨在提升 FreeBSD 执行未修改 [linux(4)](https://man.freebsd.org/cgi/man.cgi?query=linux&sektion=4&format=html) 二进制文件的能力。
 
 截至 [22dca7acf775](https://cgit.freebsd.org/src/commit/?id=22dca7acf775)，已实现 xattr 系统调用，使 Linux rsync 可用。
 
@@ -577,11 +577,11 @@ DPAA2 是某些 NXP SoC 中的硬件级网络架构，包含多个硬件模块�
 
 [项目提案](http://fuz.su/~fuz/freebsd/2023-04-05_libc-proposal.txt) URL: [http://fuz.su/~fuz/freebsd/2023-04-05_libc-proposal.txt](http://fuz.su/~fuz/freebsd/2023-04-05_libc-proposal.txt)
 
-[simd(7)(https://man.freebsd.org/cgi/man.cgi?query=simd&sektion=7&manpath=FreeBSD+15.0-CURRENT) URL: [https://man.freebsd.org/cgi/man.cgi?query=simd&sektion=7&manpath=FreeBSD+15.0-CURRENT](https://man.freebsd.org/cgi/man.cgi?query=simd&sektion=7&manpath=FreeBSD+15.0-CURRENT)
+[simd(7)](https://man.freebsd.org/cgi/man.cgi?query=simd&sektion=7&manpath=FreeBSD+15.0-CURRENT) URL: [https://man.freebsd.org/cgi/man.cgi?query=simd&sektion=7&manpath=FreeBSD+15.0-CURRENT](https://man.freebsd.org/cgi/man.cgi?query=simd&sektion=7&manpath=FreeBSD+15.0-CURRENT)
 
 联系人：Robert Clausecker [fuz@FreeBSD.org](mailto:fuz@FreeBSD.org)
 
-SIMD 指令集扩展（如 SSE、AVX 和 NEON）在现代计算机中普遍存在，为许多应用提供性能优势。该项目旨在为常用 libc 函数（主要是 [string(3)(https://man.freebsd.org/cgi/man.cgi?query=string&sektion=3&format=html) 中描述的函数）提供 SIMD 加速版本，加快大多数 C 程序的运行速度。
+SIMD 指令集扩展（如 SSE、AVX 和 NEON）在现代计算机中普遍存在，为许多应用提供性能优势。该项目旨在为常用 libc 函数（主要是 [string(3)](https://man.freebsd.org/cgi/man.cgi?query=string&sektion=3&format=html) 中描述的函数）提供 SIMD 加速版本，加快大多数 C 程序的运行速度。
 
 每个优化函数将提供最多四种实现：
 
@@ -594,7 +594,7 @@ SIMD 指令集扩展（如 SSE、AVX 和 NEON）在现代计算机中普遍存�
 
 虽然当前项目仅针对 amd64，但未来可能扩展至其他架构，如 arm64。
 
-过去几个月，该项目取得了显著进展。已完成 SIMD 加速版本的函数包括 [bcmp(3)(https://man.freebsd.org/cgi/man.cgi?query=bcmp&sektion=3&format=html)、[index(3)(https://man.freebsd.org/cgi/man.cgi?query=index&sektion=3&format=html)、[memchr(3)(https://man.freebsd.org/cgi/man.cgi?query=memchr&sektion=3&format=html)、[memcmp(3)(https://man.freebsd.org/cgi/man.cgi?query=memcmp&sektion=3&format=html)、[stpcpy(3)(https://man.freebsd.org/cgi/man.cgi?query=stpcpy&sektion=3&format=html)、[strchr(3)(https://man.freebsd.org/cgi/man.cgi?query=strchr&sektion=3&format=html)、[strchrnul(3)(https://man.freebsd.org/cgi/man.cgi?query=strchrnul&sektion=3&format=html)、[strcpy(3)(https://man.freebsd.org/cgi/man.cgi?query=strcpy&sektion=3&format=html)、[strcspn(3)(https://man.freebsd.org/cgi/man.cgi?query=strcspn&sektion=3&format=html)、[strlen(3)(https://man.freebsd.org/cgi/man.cgi?query=strlen&sektion=3&format=html)、[strnlen(3)(https://man.freebsd.org/cgi/man.cgi?query=strnlen&sektion=3&format=html) 和 [strspn(3)(https://man.freebsd.org/cgi/man.cgi?query=strspn&sektion=3&format=html)。正在开发的函数包括 [memcpy(3)(https://man.freebsd.org/cgi/man.cgi?query=memcpy&sektion=3&format=html)、[memmove(3)(https://man.freebsd.org/cgi/man.cgi?query=memmove&sektion=3&format=html)、[strcmp(3)(https://man.freebsd.org/cgi/man.cgi?query=strcmp&sektion=3&format=html)、[timingsafe_bcmp(3)(https://man.freebsd.org/cgi/man.cgi?query=timingsafe_bcmp&sektion=3&format=html)（见 [D41673](https://reviews.freebsd.org/D41673)）、[timingsafe_memcmp(3)(https://man.freebsd.org/cgi/man.cgi?query=timingsafe_memcmp&sektion=3&format=html)（见 [D41696](https://reviews.freebsd.org/D41696)）。遗憾的是，这些优化未能赶上 FreeBSD 14.0，但计划纳入 FreeBSD 14.1。
+过去几个月，该项目取得了显著进展。已完成 SIMD 加速版本的函数包括 [bcmp(3)](https://man.freebsd.org/cgi/man.cgi?query=bcmp&sektion=3&format=html)、[index(3)](https://man.freebsd.org/cgi/man.cgi?query=index&sektion=3&format=html)、[memchr(3)](https://man.freebsd.org/cgi/man.cgi?query=memchr&sektion=3&format=html)、[memcmp(3)](https://man.freebsd.org/cgi/man.cgi?query=memcmp&sektion=3&format=html)、[stpcpy(3)](https://man.freebsd.org/cgi/man.cgi?query=stpcpy&sektion=3&format=html)、[strchr(3)](https://man.freebsd.org/cgi/man.cgi?query=strchr&sektion=3&format=html)、[strchrnul(3)](https://man.freebsd.org/cgi/man.cgi?query=strchrnul&sektion=3&format=html)、[strcpy(3)](https://man.freebsd.org/cgi/man.cgi?query=strcpy&sektion=3&format=html)、[strcspn(3)](https://man.freebsd.org/cgi/man.cgi?query=strcspn&sektion=3&format=html)、[strlen(3)](https://man.freebsd.org/cgi/man.cgi?query=strlen&sektion=3&format=html)、[strnlen(3)](https://man.freebsd.org/cgi/man.cgi?query=strnlen&sektion=3&format=html) 和 [strspn(3)](https://man.freebsd.org/cgi/man.cgi?query=strspn&sektion=3&format=html)。正在开发的函数包括 [memcpy(3)](https://man.freebsd.org/cgi/man.cgi?query=memcpy&sektion=3&format=html)、[memmove(3)](https://man.freebsd.org/cgi/man.cgi?query=memmove&sektion=3&format=html)、[strcmp(3)](https://man.freebsd.org/cgi/man.cgi?query=strcmp&sektion=3&format=html)、[timingsafe_bcmp(3)](https://man.freebsd.org/cgi/man.cgi?query=timingsafe_bcmp&sektion=3&format=html)](见 [D41673](https://reviews.freebsd.org/D41673)）、[timingsafe_memcmp(3)](https://man.freebsd.org/cgi/man.cgi?query=timingsafe_memcmp&sektion=3&format=html)](见 [D41696](https://reviews.freebsd.org/D41696)）。遗憾的是，这些优化未能赶上 FreeBSD 14.0，但计划纳入 FreeBSD 14.1。
 
 赞助：FreeBSD 基金会
 
@@ -643,7 +643,7 @@ mfsBSD 是一个工具集，用于创建基于 mfsroot 的小型但功能完整�
 
 OpenStack 是一款开源云操作系统，为在云平台上部署各种资源提供了宝贵支持。然而，在 FreeBSD 主机上运行 OpenStack 控制平面存在挑战。本项目旨在使 FreeBSD 能够无缝作为 OpenStack 主机运行。
 
-本季度，我们专注于概念验证（POC）的最后一部分：VM 控制台集成。目标是让用户通过 OpenStack 客户端获取串行控制台，以访问运行在基于 FreeBSD 的 OpenStack 集群上的 VM 实例。这一点很重要，因为目前 Neutron 的托管 DHCP 服务尚无可用 Port，用户需手动配置 VM 实例的正确 IP 才能连网。然而，[bhyve(8)(https://man.freebsd.org/cgi/man.cgi?query=bhyve&sektion=8&format=html) 原生不支持串行控制台，我们需通过网络导出 [nmdm(4)(https://man.freebsd.org/cgi/man.cgi?query=nmdm&sektion=4&format=html) 设备。实现方式是使用自定义代理 [`socat-manager`](https://github.com/openstack-on-freebsd/socat-manager/blob/main/server.py)，并借助 [socat(1)(https://man.freebsd.org/cgi/man.cgi?query=socat&sektion=1&format=html) 监听 OpenStack `nova-compute` 分配的特定端口，再通过 [bhyve 的自定义 Libvirt hook](https://github.com/openstack-on-freebsd/socat-manager/tree/main/hooks) 将两端连接，实现控制台访问。在开发 hook 脚本过程中，我们发现 Libvirt 为 bhyve 提供的 hook 接口 [实现不完善](https://gitlab.com/libvirt/libvirt/-/issues/528)，所幸 Libvirt 开发者及时 [修复了问题](https://gitlab.com/libvirt/libvirt/-/commit/ad8c4d9d6d09d51a9530ed84fcd2220713aab928)，未来我们将对 hook 脚本进行优化。
+本季度，我们专注于概念验证（POC）的最后一部分：VM 控制台集成。目标是让用户通过 OpenStack 客户端获取串行控制台，以访问运行在基于 FreeBSD 的 OpenStack 集群上的 VM 实例。这一点很重要，因为目前 Neutron 的托管 DHCP 服务尚无可用 Port，用户需手动配置 VM 实例的正确 IP 才能连网。然而，[bhyve(8)](https://man.freebsd.org/cgi/man.cgi?query=bhyve&sektion=8&format=html) 原生不支持串行控制台，我们需通过网络导出 [nmdm(4)](https://man.freebsd.org/cgi/man.cgi?query=nmdm&sektion=4&format=html) 设备。实现方式是使用自定义代理 [`socat-manager`](https://github.com/openstack-on-freebsd/socat-manager/blob/main/server.py)，并借助 [socat(1)](https://man.freebsd.org/cgi/man.cgi?query=socat&sektion=1&format=html) 监听 OpenStack `nova-compute` 分配的特定端口，再通过 [bhyve 的自定义 Libvirt hook](https://github.com/openstack-on-freebsd/socat-manager/tree/main/hooks) 将两端连接，实现控制台访问。在开发 hook 脚本过程中，我们发现 Libvirt 为 bhyve 提供的 hook 接口 [实现不完善](https://gitlab.com/libvirt/libvirt/-/issues/528)，所幸 Libvirt 开发者及时 [修复了问题](https://gitlab.com/libvirt/libvirt/-/commit/ad8c4d9d6d09d51a9530ed84fcd2220713aab928)，未来我们将对 hook 脚本进行优化。
 
 我们还解决了嵌套 bhyve 问题（在 Linux KVM 上运行 bhyve VM），该问题在上季度报告中提及，由 APIC 模拟的两个 VT-x 特性 `VID` 和 `PostIntr` 引起。由于主机 CPU 拥有这些特性，我们需在作为 bhyve 主机的 L1 客户机中在 **/boot/loader.conf** 禁用它们，以避免 L2 客户机挂起。这对于在完全虚拟化环境中进行项目开发至关重要，也降低了其他用户在其环境中尝试或验证整个 POC 的门槛。
 
@@ -782,8 +782,8 @@ doceng@ 团队负责处理 FreeBSD 文档团队相关的一些元项目问题；
 
 ##### 语言进度
 
-* 中文（简体）(zh-cn) (进度：7%)
-* 中文（繁体）(zh-tw) (进度：3%)
+* 中文（简体)](zh-cn) (进度：7%)
+* 中文（繁体)](zh-tw) (进度：3%)
 * 荷兰语 (nl) (进度：1%)
 * 法语 (fr) (进度：1%)
 * 德语 (de) (进度：1%)
@@ -994,15 +994,15 @@ FreeBSD Office 团队致力于办公相关软件套件和工具，如 OpenOffice
 
 [net/wifibox Port](https://cgit.freebsd.org/ports/tree/net/wifibox) URL: [https://cgit.freebsd.org/ports/tree/net/wifibox](https://cgit.freebsd.org/ports/tree/net/wifibox)
 
-联系人：PÁLI Gábor János [pali.gabor@gmail.com](mailto:pali.gabor@gmail.com)(%[5Bpali.gabor@gmail.com](mailto:5Bpali.gabor@gmail.com)%5D(mailto:pali[.gabor@gmail.com](mailto:.gabor@gmail.com)))
+联系人：PÁLI Gábor János [pali.gabor@gmail.com](mailto:pali.gabor@gmail.com)](%[5Bpali.gabor@gmail.com](mailto:5Bpali.gabor@gmail.com)%5D(mailto:pali[.gabor@gmail.com](mailto:.gabor@gmail.com)))
 
 Wifibox 是一项实验性项目，用于探索在 FreeBSD 主机系统上通过虚拟化 Linux 客机驱动无线网卡的方法。已有手动设置指南，而 Wifibox 旨在将这些想法整合为一个易于使用的软件包。
 
-* 它使用 [bhyve(8)(https://man.freebsd.org/cgi/man.cgi?query=bhyve&sektion=8&format=html) 运行嵌入式 Linux 系统，从而实现低资源占用。要求 x64 CPU 带 I/O MMU（AMD-Vi、Intel VT-d）、约 150 MB 物理内存，以及可用磁盘空间用于客机虚拟磁盘镜像，在某些情况下仅需约 30 MB。适用于 FreeBSD 12 及更高版本，部分网卡可能需要 FreeBSD 13。
+* 它使用 [bhyve(8)](https://man.freebsd.org/cgi/man.cgi?query=bhyve&sektion=8&format=html) 运行嵌入式 Linux 系统，从而实现低资源占用。要求 x64 CPU 带 I/O MMU（AMD-Vi、Intel VT-d）、约 150 MB 物理内存，以及可用磁盘空间用于客机虚拟磁盘镜像，在某些情况下仅需约 30 MB。适用于 FreeBSD 12 及更高版本，部分网卡可能需要 FreeBSD 13。
 * 客机使用 [Alpine Linux](https://alpinelinux.org/)，这是一个面向安全的轻量级发行版，基于 [musl libc](https://www.musl-libc.org/) 和 [BusyBox](https://busybox.net/)，并引入了一些来自 [Arch Linux](https://archlinux.org/) 的自定义扩展和补丁。内置多种诊断工具以便更好管理硬件。近期版本基于 Linux 6.1，也可选择 Linux 6.5。
-* 配置文件与主机系统共享。客机可使用 [wpa_supplicant(8)(https://man.freebsd.org/cgi/man.cgi?query=wpa_supplicant&sektion=8&format=html) 或 [hostapd(8)(https://man.freebsd.org/cgi/man.cgi?query=hostapd&sektion=8&format=html)（取决于配置），可直接导入主机的 [wpa_supplicant.conf(5)(https://man.freebsd.org/cgi/man.cgi?query=wpa_supplicant.conf&sektion=5&format=html) 或 [hostapd.conf(5)(https://man.freebsd.org/cgi/man.cgi?query=hostapd.conf&sektion=5&format=html) 文件，无需修改。
-* 配置完成后，客机可暴露 [wpa_supplicant(8)(https://man.freebsd.org/cgi/man.cgi?query=wpa_supplicant&sektion=8&format=html) 和 [hostapd(8)(https://man.freebsd.org/cgi/man.cgi?query=hostapd&sektion=8&format=html) 的控制套接字，使主机可直接使用相关工具，如 [wpa_cli(8)(https://man.freebsd.org/cgi/man.cgi?query=wpa_cli&sektion=8&format=html)、[wpa_gui(8)(https://man.freebsd.org/cgi/man.cgi?query=wpa_gui&sektion=8&format=html)（来自 [net/wpa_supplicant_gui](https://cgit.freebsd.org/ports/tree/net/wpa_supplicant_gui/) 包）或 [hostapd_cli(8)(https://man.freebsd.org/cgi/man.cgi?query=hostapd_cli&sektion=8&format=html)。
-* 软件以单一包形式提供，易于安装和卸载，带 [rc(8)(https://man.freebsd.org/cgi/man.cgi?query=rc&sektion=8&format=html) 系统服务，可在启动时自动运行客机，关机时自动停止。
+* 配置文件与主机系统共享。客机可使用 [wpa_supplicant(8)](https://man.freebsd.org/cgi/man.cgi?query=wpa_supplicant&sektion=8&format=html) 或 [hostapd(8)](https://man.freebsd.org/cgi/man.cgi?query=hostapd&sektion=8&format=html)](取决于配置），可直接导入主机的 [wpa_supplicant.conf(5)](https://man.freebsd.org/cgi/man.cgi?query=wpa_supplicant.conf&sektion=5&format=html) 或 [hostapd.conf(5)](https://man.freebsd.org/cgi/man.cgi?query=hostapd.conf&sektion=5&format=html) 文件，无需修改。
+* 配置完成后，客机可暴露 [wpa_supplicant(8)](https://man.freebsd.org/cgi/man.cgi?query=wpa_supplicant&sektion=8&format=html) 和 [hostapd(8)](https://man.freebsd.org/cgi/man.cgi?query=hostapd&sektion=8&format=html) 的控制套接字，使主机可直接使用相关工具，如 [wpa_cli(8)](https://man.freebsd.org/cgi/man.cgi?query=wpa_cli&sektion=8&format=html)、[wpa_gui(8)](https://man.freebsd.org/cgi/man.cgi?query=wpa_gui&sektion=8&format=html)](来自 [net/wpa_supplicant_gui](https://cgit.freebsd.org/ports/tree/net/wpa_supplicant_gui/) 包）或 [hostapd_cli(8)](https://man.freebsd.org/cgi/man.cgi?query=hostapd_cli&sektion=8&format=html)。
+* 软件以单一包形式提供，易于安装和卸载，带 [rc(8)](https://man.freebsd.org/cgi/man.cgi?query=rc&sektion=8&format=html) 系统服务，可在启动时自动运行客机，关机时自动停止。
 * 可配置 IPv6 流量转发，当前为实验性选项，默认开启。
 
 Wifibox 已在 Intel 芯片组上进行了大量测试，表现出良好的性能与稳定性，可作为 FreeBSD 对这些芯片组支持尚未完善时的过渡方案。
@@ -1015,16 +1015,16 @@ Wifibox 已在 Intel 芯片组上进行了大量测试，表现出良好的性�
 
 [Pot 组织 GitHub 页面](https://github.com/bsdpot) URL: [https://github.com/bsdpot](https://github.com/bsdpot)
 
-联系人：Luca Pizzamiglio (Pot) [pizzamig@FreeBSD.org](mailto:pizzamig@FreeBSD.org)(%[5Bpizzamig@FreeBSD.org](mailto:5Bpizzamig@FreeBSD.org)%5D(mailto:pizzamig@FreeBSD.org))
+联系人：Luca Pizzamiglio (Pot) [pizzamig@FreeBSD.org](mailto:pizzamig@FreeBSD.org)](%[5Bpizzamig@FreeBSD.org](mailto:5Bpizzamig@FreeBSD.org)%5D(mailto:pizzamig@FreeBSD.org))
 
-联系人：Bretton Vine (Potluck) [bv@honeyguide.eu](mailto:bv@honeyguide.eu)(%[5Bbv@honeyguide.eu](mailto:5Bbv@honeyguide.eu)%5D(mailto:bv@honeyguide.eu))
+联系人：Bretton Vine (Potluck) [bv@honeyguide.eu](mailto:bv@honeyguide.eu)](%[5Bbv@honeyguide.eu](mailto:5Bbv@honeyguide.eu)%5D(mailto:bv@honeyguide.eu))
 
-联系人：Michael Gmelin (Potman) [grembo@FreeBSD.org](mailto:grembo@FreeBSD.org)(%[5Bgrembo@FreeBSD.org](mailto:5Bgrembo@FreeBSD.org)%5D(mailto:grembo@FreeBSD.org))
+联系人：Michael Gmelin (Potman) [grembo@FreeBSD.org](mailto:grembo@FreeBSD.org)](%[5Bgrembo@FreeBSD.org](mailto:5Bgrembo@FreeBSD.org)%5D(mailto:grembo@FreeBSD.org))
 
 
 Pot 是一款 jail 管理工具，同时支持通过 Nomad 进行编排。[详细说明](https://www.freebsd.org/news/status/report-2020-01-2020-03/#pot-and-the-nomad-pot-driver)。
 
-本季度完成了 [Pot 0.15.6](https://github.com/bsdpot/pot/pull/274) 的开发，新增了自定义 [pf(4)(https://man.freebsd.org/cgi/man.cgi?query=pf&sektion=4&format=html) 规则配置钩子。
+本季度完成了 [Pot 0.15.6](https://github.com/bsdpot/pot/pull/274) 的开发，新增了自定义 [pf(4)](https://man.freebsd.org/cgi/man.cgi?query=pf&sektion=4&format=html) 规则配置钩子。
 
 此外，还发布了 [Nomad Pot Driver 0.9.1](https://github.com/bsdpot/nomad-pot-driver/releases/tag/v0.9.1)，允许在 Nomad 作业描述中设置 Pot 属性。
 
