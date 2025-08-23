@@ -4,7 +4,7 @@
 
 这是 2022 年第二季度的季度报告，共包含 26 份报告。
 
-本季度，季度团队成功地更快地发布了报告，并且希望错误更少。不过，如果你发现任何问题，请及时反馈，以便我们进行修正，同时在我们的工具中增加了一些自动检查，从而在后续的发布过程中尽可能保持高效。
+本季度，季度团队成功地更快地发布了报告，并且希望错误不多。不过，如果你发现任何问题，请及时反馈，以便我们进行修正，同时在我们的工具中增加了一些自动检查，从而在后续的发布过程中尽可能保持高效。
 
 我们还想提醒各位，如果因任何原因你需要更多时间提交季度报告，团队会等待你，但请提前告知，以便我们知晓仍有报告未提交。
 
@@ -87,7 +87,7 @@ FreeBSD 基金会是一家 501(c)(3) 非盈利组织，致力于支持和推广 
 赞助工作示例：
 
 * 更新基本系统中的 OpenSSH 
-* LLDB 多进程调试支持
+* 支持 LLDB 多进程调试
 * 改进无线状态
 * makefs 的 ZFS 支持
 
@@ -103,7 +103,7 @@ FreeBSD 基金会是一家 501(c)(3) 非盈利组织，致力于支持和推广 
 
 新合同让 John Baldwin 专注于 Bhyve 相关问题，尤其是安全问题。
 
-##### 手册改进探索
+##### 探索改进手册
 
 赞助 Pau Amma 完成小型项目，探索如何改进 FreeBSD 手册，已发放问卷并将分享结果。
 
@@ -189,7 +189,7 @@ FreeBSD 集群管理团队负责管理项目依赖的机器，用于同步分布
 
 * 与 PowerPC 团队合作改进软件包构建器、通用和参考机器
 * 硬件更新计划及修复各站点的各种故障
-* 改进 package 构建基础设施
+* 改进软件包构建基础设施
 * 审查 service jail 和管理员操作
 * 与文档工程团队合作改进 [https://www.freebsd.org](https://www.freebsd.org/) 和 [https://docs.freebsd.org](https://docs.freebsd.org/) 的部署
 * 改进网站服务架构
@@ -315,6 +315,7 @@ arm64 Linux 仿真层已达到 amd64 仿真层状态：实现了 vDSO、机器�
 线程亲和性系统调用修改为 Linux 语义。
 
 共修复 50 多个 bug，glibc-2.35 测试套件报告失败测试少于 80 个。
+
 所有 Linux 仿真层更改已合并至 stable/13 分支。
 
 对 libsysdecode 和 kdump 添加了初步支持 Linux 系统调用追踪工作，仍在增加更多追踪支持。
@@ -337,7 +338,7 @@ arm64 Linux 仿真层已达到 amd64 仿真层状态：实现了 vDSO、机器�
 
 Go 在 FreeBSD riscv64 的移植已完成，可构建并通过所有 run.bash 测试，包括 cgo（在 QEMU 和 Unmatched 上测试）。相关 pull request 已提交上游，并加入 proposals 项目活跃列，将在每周提案评审会议中审核。
 
-### FreeBSD 在 Microsoft Hyper-V 和 Azure 上
+### 微软 Hyper-V 和 Azure 上的 FreeBSD
 
 链接：
 
@@ -345,7 +346,7 @@ Go 在 FreeBSD riscv64 的移植已完成，可构建并通过所有 run.bash �
 
 [Hyper-V 上 FreeBSD 文章](https://wiki.freebsd.org/HyperV)
 
-联系人：Microsoft FreeBSD 集成服务团队 [bsdic@microsoft.com](mailto:bsdic@microsoft.com)
+联系人：微软 FreeBSD 集成服务团队 [bsdic@microsoft.com](mailto:bsdic@microsoft.com)
 
 联系人：[freebsd-cloud 邮件列表](https://lists.freebsd.org/mailman/listinfo/freebsd-cloud)
 
@@ -362,7 +363,7 @@ Go 在 FreeBSD riscv64 的移植已完成，可构建并通过所有 run.bash �
 * 自动化镜像构建和发布流程
 * 构建并发布基于 ZFS 的 Azure Marketplace 镜像
 
-  * 受益于 [makefs(8)(https://man.freebsd.org/cgi/man.cgi?query=makefs&sektion=8&format=html) 和 [release(7)(https://man.freebsd.org/cgi/man.cgi?query=release&sektion=7&format=html) 的 ZFS 支持合并
+  * 受益于 [makefs(8)(https://man.freebsd.org/cgi/man.cgi?query=makefs&sektion=8&format=html) 和 [release(7)(https://man.freebsd.org/cgi/man.cgi?query=release&sektion=7&format=html) ZFS 支持的合并
 
     * [D23334](https://reviews.freebsd.org/D23334)
     * [D34426](https://reviews.freebsd.org/D34426)
@@ -378,14 +379,14 @@ Wei Hu 与微软同事正在进行微软赞助的任务：
 * 修复 Azure 上 Hyper-V gen2 VM 的启动问题
 
   * [264267 号 Bug](https://bugs.freebsd.org/264267)
-* 移植 Hyper-V 客户端支持到 aarch64
+* 将对 Hyper-V 虚拟机的移植支持到 aarch64
 
 开放任务：
 
 * 更新 FreeBSD 相关文档于 [Microsoft Docs](https://docs.microsoft.com/)
 * 支持 FreeBSD 在 [Azure Pipelines](https://azure.microsoft.com/services/devops/pipelines/)
 * 更新 [Azure agent port](https://www.freshports.org/sysutils/azure-agent) 至最新版本
-* 上游 [Azure agent 本地修改](https://github.com/Azure/WALinuxAgent/pull/1892)
+* 回溯 [Azure agent 本地修改](https://github.com/Azure/WALinuxAgent/pull/1892)
 
 赞助：微软（Wei Hu 及其他微软工作相关），FreeBSD 基金会（其他任务）
 
@@ -405,7 +406,7 @@ Wei Hu 与微软同事正在进行微软赞助的任务：
 
 联系人：Michał Górny [mgorny@moritz.systems](mailto:mgorny@moritz.systems)
 
-根据上游描述，“LLDB 是下一代高性能调试器。它由一组可重用组件构建，充分利用 LLVM 项目中的现有库，例如 Clang 表达式解析器和 LLVM 反汇编器。”
+根据上游所述，“LLDB 是下一代高性能调试器。它由一组可重用组件构建，充分利用 LLVM 项目中的现有库，例如 Clang 表达式解析器和 LLVM 反汇编器。”
 
 FreeBSD 在基本系统中内置 LLDB。之前的赞助项目改进了 LLDB，使其成为基本系统中可靠的调试器，尽管与当代 GNU GDB 版本相比仍有一些限制。该项目始于 2022 年 4 月，旨在实现同时调试多个进程的完整支持。
 
@@ -435,7 +436,7 @@ makefs(8) 是一款源自 NetBSD 的工具，用于在用户空间中创建文�
 
 赞助方：FreeBSD 基金会
 
-### 更新基本系统的 OpenSSH 
+### 更新基本系统中的 OpenSSH 
 
 链接：
 
@@ -451,13 +452,14 @@ OpenSSH 是一套远程登录和文件传输工具，在 FreeBSD 基本系统中
 
 尚未合并到 stable/13 和 stable/12 分支，预计将在七月完成。
 
-**注意**：OpenSSH 9.0p1 默认将 scp(1) 从传统 scp/rcp 协议切换为 SFTP 协议。可使用 `-O` 参数恢复使用旧协议。
+**注意**：OpenSSH 9.0p1 默认将 scp(1) 从传统的 scp/rcp 协议切换为 SFTP 协议。可使用参数 `-O` 恢复使用旧协议。
 
 赞助方：FreeBSD 基金会
 
 ### pf 状态更新
 
 联系人：Kristof Provost [kp@FreeBSD.org](mailto:kp@FreeBSD.org)
+
 联系人：Reid Linnemann [rlinnemann@netgate.com](mailto:rlinnemann@netgate.com)
 
 #### 以太网
@@ -522,7 +524,7 @@ ENA（Elastic Network Adapter）是 Amazon Web Services (AWS) 虚拟化环境中
 
 * 即将发布 ENA 驱动版本 (v2.6.0) 的测试
 
-赞助方：Amazon.com Inc
+赞助方：亚马逊
 
 ### 新的蓝牙配置守护进程：blued
 
@@ -542,11 +544,11 @@ blued 工具提供了 IPC 接口，使非特权用户能够以用户友好的方
 
 #### 什么是 blued？
 
-blued 由三个部分组成：库、守护进程和命令行工具。库抽象了 Bluetooth 的细节，守护进程管理 Bluetooth 设备，命令行工具允许用户列出或扫描 Bluetooth 设备、与设备配对或取消配对。命令行工具通过 UNIX 套接字与守护进程通信。
+blued 由三个部分组成：库、守护进程和命令行工具。库抽象了蓝牙的细节，守护进程管理蓝牙设备，命令行工具允许用户列出或扫描蓝牙设备、与设备配对或取消配对。命令行工具通过 UNIX 套接字与守护进程通信。
 
-与 bthidd 和 hcsecd 不同，blued 支持安全简易配对并提供 IPC。要使 HID 设备工作，仍需 bthidd。提供了一个脚本，用于配对 Bluetooth 设备并适当配置 bthidd，使其可以自动工作并在无需用户干预的情况下重新连接。
+与 bthidd 和 hcsecd 不同，blued 支持安全简易配对并提供 IPC。要使 HID 设备工作，仍需 bthidd。提供了一个脚本，用于配对蓝牙设备并适当配置 bthidd，使其可以自动工作并在无需用户干预的情况下重新连接。
 
-一旦配对稳定且 Bug 被修复，计划将 bthidd 与 blued 集成，以便 HID 设备在配对后无需外部脚本即可自动生效。长期目标是提供图形界面，列出设备并提供一键连接的简单设置。
+待配对稳定且 Bug 修复，计划将 bthidd 与 blued 集成，以便 HID 设备在配对后无需外部脚本即可自动生效。长期目标是提供图形界面，列出设备并提供一键连接的简单设置。
 
 #### 安装和使用 blued v0.1
 
@@ -564,9 +566,9 @@ blued 由三个部分组成：库、守护进程和命令行工具。库抽象�
 
 ##### 测试
 
-我只用自己的鼠标测试过此软件，样本量仅一个 Bluetooth 设备。我预期会有问题，非常期待其他人的反馈！
+我只用自己的鼠标测试过此软件，样本量仅一款蓝牙设备。我预期会有问题，非常期待其他人的反馈！
 
-遇到问题时，请提供 /var/log/debug.log 和 /var/log/messages 的输出，以及尝试配对时的 "hcidump -x" 流量转储，有助于排查问题。
+遇到问题时，请提供 `/var/log/debug.log` 和 `/var/log/messages` 的输出，以及尝试配对时的 `hcidump -x` 流量转储，有助于排查问题。
 
 ##### 贡献代码
 
@@ -594,7 +596,7 @@ OpenVPN DCO（数据通道卸载）将 OpenVPN 数据包处理移入内核。
 
 赞助方：Rubicon Communications, LLC (“Netgate”)
 
-### 无线进展
+### 无线动态
 
 链接：
 
@@ -608,13 +610,13 @@ OpenVPN DCO（数据通道卸载）将 OpenVPN 数据包处理移入内核。
 
 该项目旨在为 FreeBSD 引入对新芯片组的支持，目前使用 LinuxKPI 兼容代码，依赖原生 net80211 和内核代码。此外，项目还致力于支持更新的无线标准。第二季度，共有 40 次提交进入 FreeBSD CURRENT。随着更多用户尝试多驱动支持，支持时间也增加。
 
-早期版本的 Intel iwlwifi 衍生无线驱动在 13.1-RELEASE 中首次引入。iwlwifi 驱动和固件随后在 CURRENT 和 stable/13 中更新。与上游 Intel Linux 驱动共享的文件变更少于 400 行。近期解决了老芯片组的长期问题，使 iwm(4) 支持的网卡在近三个月后再次能与 iwlwifi(4) 配合使用。项目年末的主要目标是达到现代速度。
+在 13.1-RELEASE 中首次引入了早期版本的 Intel iwlwifi 衍生无线驱动。随后在 CURRENT 和 stable/13 中更新了 iwlwifi 驱动和固件。与上游 Intel Linux 驱动共享的文件变更少于 400 行。近期解决了老芯片组的长期问题，使 iwm(4) 支持的网卡在近三个月后再次能与 iwlwifi(4) 配合使用。项目年末的主要目标是达到现代速度。
 
-4 月 1 日，利用主要由 iwlwifi 工作构建的 LinuxKPI 基础设施，Realtek rtw88(4) 驱动被提交到 CURRENT。由于 DMA 问题，随后几周开发了一个工作绕过方案并合入源码树，使用户无需再补丁内核。该驱动仍需在物理内存超过 4GB 的机器上设置 loader.conf 可调参数。此参数允许驱动在 6 月合入 stable/13，并随后在 CURRENT 和 stable/13 中进一步更新。随着基于 rtw88 芯片组的 USB 部分准备纳入 Linux，FreeBSD 对 USB 部分的支持工作已启动，但仍需更多时间。
+4 月 1 日，利用主要由 iwlwifi 工作构建的 LinuxKPI 基础设施，将 Realtek rtw88(4) 驱动提交了到 CURRENT。由于 DMA 问题，随后几周开发了一个工作绕过方案并合入源码树，使用户无需再补丁内核。该驱动仍需在物理内存超过 4GB 的机器上设置 loader.conf 可调参数。此参数能让驱动在 6 月合入到 stable/13，并随后在 CURRENT 和 stable/13 中进一步更新。随着基于 rtw88 芯片组的 USB 部分准备纳入 Linux，FreeBSD 对 USB 部分的支持工作已启动，但仍需更多时间。
 
 近几个月，Realtek rtw89 已能编译，但仍在持续开发中，需要实现稳定运行和关联后才能在 CURRENT 中启用。
 
-感谢所有用户的测试与反馈，耐心等待下一次更新、修复或回复。非常高兴与大家合作！请继续发送 Bug 报告，但感谢应归于 FreeBSD Foundation，使这些工作得以实现。
+感谢所有用户的测试与反馈，耐心等待下一次更新、修复或回复。非常高兴与大家合作！请继续发送 Bug 报告，但感谢应归于 FreeBSD 基金会，使这些工作得以实现。
 
 有关开发的最新状态，请关注 freebsd-wireless 邮件列表并查看 wiki 页面。
 
@@ -630,7 +632,7 @@ OpenVPN DCO（数据通道卸载）将 OpenVPN 数据包处理移入内核。
 
 联系人：Marcin Wojtas [mw@FreeBSD.org](mailto:mw@FreeBSD.org)
 
-共享页是一个 R/X 页，由映像激活器映射到每个进程中。它存储信号跳板以及其他元数据，例如实现用户空间计时器所需的信息。此前它映射在进程虚拟地址空间的顶部。经过所述更改后，其地址将被随机化。计划默认对 64 位二进制启用此功能，覆盖所有架构。目前补丁正在审核中，等待批准。
+共享页是 R/X 页，由映像激活器映射到每个进程中。它存储信号跳板以及其他元数据，例如实现用户空间计时器所需的信息。此前它映射在进程虚拟地址空间的顶部。经过所述更改后，其地址将被随机化。计划默认对 64 位二进制启用此功能，覆盖所有架构。目前正在审核补丁，等待批准。
 
 赞助方：Stormshield
 
@@ -650,7 +652,7 @@ OpenVPN DCO（数据通道卸载）将 OpenVPN 数据包处理移入内核。
 
 联系人：Bjoern A. Zeeb [bz@FreeBSD.org](mailto:bz@FreeBSD.org)
 
-部分 NXP SoC（LX2160A、LS1088A）配备了 [DPAA2](https://www.nxp.com/design/qoriq-developer-resources/second-generation-data-path-acceleration-architecture-dpaa2:DPAA2)，第二代数据路径加速架构。它允许动态配置并连接数据包处理“对象”（DPNI 用于网络接口，DPMAC 用于媒体访问控制器等），形成片上网络。
+部分 NXP SoC（LX2160A、LS1088A）配备了 [DPAA2](https://www.nxp.com/design/qoriq-developer-resources/second-generation-data-path-acceleration-architecture-dpaa2:DPAA2)，第二代数据路径加速架构。它支持动态配置并连接数据包处理“对象”（DPNI 用于网络接口，DPMAC 用于媒体访问控制器等），形成片上网络。
 
 在上个季度，驱动在 [SolidRun Honeycomb LX2](https://solidrun.atlassian.net/wiki/spaces/developer/pages/197494288/HoneyComb+LX2+ClearFog+CX+LX2+Quick+Start+Guide)（ACPI 测试平台）上已经足够稳定，Traverse Technologies 也提供了 [Ten64 FreeBSD 预览](https://forum.traverse.com.au/t/freebsd-preview-for-ten64/173)（用于 FDT 测试平台）。
 
@@ -670,6 +672,7 @@ OpenVPN DCO（数据通道卸载）将 OpenVPN 数据包处理移入内核。
 * 硬件支持的其他部件（DPSW、DCE 等）。
 
 赞助方：Bare Enthusiasm :)
+
 赞助方：Traverse Technologies（提供 Ten64 硬件用于测试）
 
 ### arm64 及更高平台的中等大小超级页
@@ -680,7 +683,7 @@ OpenVPN DCO（数据通道卸载）将 OpenVPN 数据包处理移入内核。
 
 64 位 ARM 架构的页表描述符格式包含一个称为 Contiguous 的标志。该标志告诉 MMU 可以使用单个 TLB 条目缓存一组对齐且物理连续的 16 个页表条目，这些条目具有相同权限和属性。
 
-Contiguous 标志，以及 RISC-V 架构中类似的 Svnapot 扩展，允许使用 64 KiB 的超级页。这些中等大小的超级页可以为较小的内存对象带来类似于传统 2 MiB 超级页的地址转换加速效果。
+Contiguous 标志，以及 RISC-V 架构中类似的 Svnapot 扩展，可使用 64 KiB 的超级页。这些中等大小的超级页可以为较小的内存对象带来类似于传统 2 MiB 超级页的地址转换加速效果。
 
 本项目旨在为 FreeBSD 引入中等大小超级页支持。目前，我们已修改 arm64 pmap 代码，通过检测物理连续的页表条目并使用 Contiguous 标志提升它们，自动利用 64 KiB 超级页。下一步，我们正在修改内核的超级页预留模块，以支持除现有 2 MiB 预留外的 64 KiB 预留。增加中等大小预留将允许虚拟内存系统显式分配符合超级页提升要求的内存，而不是仅靠机会发生。
 
@@ -694,11 +697,11 @@ Contiguous 标志，以及 RISC-V 架构中类似的 Svnapot 扩展，允许使�
 
 ### 文档工程团队
 
-链接：[FreeBSD Documentation Project](https://www.freebsd.org/docproj/)
+链接：[FreeBSD 文档项目](https://www.freebsd.org/docproj/)
 
 链接：[新贡献者文档工程指南](https://docs.freebsd.org/en/books/fdp-primer/)
 
-链接：[Documentation Engineering Team](https://www.freebsd.org/administration/#t-doceng)
+链接：[文档工程团队](https://www.freebsd.org/administration/#t-doceng)
 
 联系人：文档工程团队 [doceng@FreeBSD.org](mailto:doceng@FreeBSD.org)
 
@@ -715,6 +718,7 @@ Contiguous 标志，以及 RISC-V 架构中类似的 Svnapot 扩展，允许使�
 #### FreeBSD Weblate 翻译
 
 链接：[在 Weblate 翻译 FreeBSD](https://wiki.freebsd.org/Doc/Translation/Weblate)
+
 链接：[FreeBSD Weblate 实例](https://translate-dev.freebsd.org/)
 
 ##### 2022 年第二季度状态
@@ -781,11 +785,11 @@ KDE Gear 每季度发布一次，KDE Plasma 每月更新，KDE Frameworks 每月
 * **deskutils/kalendar** 加入 KDE Gear 发布。
 * **devel/okteta** 更新二进制、八进制和十六进制数据查看与编辑器。
 * **finance/kraft** 对新 KDE Frameworks 需要特定构建修复。
-* **games/gcompris-qt** 扩展，支持更多图像格式。
+* 增补 **games/gcompris-qt**，支持更多图像格式。
 * **graphics/digikam** 构建时不再需要 SQL 服务器。
 * **graphics/krita** 更新至 5.0.5，可能是最后一个 5.0 版本。
-* **math/labplot** 最近版本新增大量功能，适合数据绘图使用。
-* **net-im/ruqola** 更新，为 Qt 风格 Rocket chat 应用。
+* 最近 **math/labplot** 版本新增大量功能，适合数据绘图使用。
+* 更新 **net-im/ruqola**，为 Qt 风格 Rocket chat 应用。
 * **www/falkon** 加入 KDE Gear 发布。
 
 #### 相关应用
@@ -827,7 +831,7 @@ Lorenzo Salvadore [salvadore@FreeBSD.org](mailto:salvadore@FreeBSD.org)
 
 Piotr Kubaj [pkubaj@FreeBSD.org](mailto:pkubaj@FreeBSD.org)
 
-* salvadore@ 在 Mk/bsd.default-versions.mk 中将 GCC\_DEFAULT 从 10 升级到 11，并根据 antoine@ 的实验运行报告提交并修复了一些 bug，感谢所有协助此任务的人。GCC\_DEFAULT 从 GCC 10 升级到 GCC 11 已由 gerald@ 提交，并赶上了下一个季度分支。[https://bugs.freebsd.org/bugzilla/show\_bug.cgi?id=258378](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=258378)
+* salvadore@ 在 `Mk/bsd.default-versions.mk` 中将 GCC\_DEFAULT 从 10 升级到 11，并根据 antoine@ 的实验运行报告提交并修复了一些 bug，感谢所有协助此任务的人。GCC\_DEFAULT 从 GCC 10 升级到 GCC 11 已由 gerald@ 提交，并赶上了下一个季度分支。[https://bugs.freebsd.org/bugzilla/show\_bug.cgi?id=258378](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=258378)
 * pkubaj@ 对 GCC 11 及更新版本的 GCC 自举过程启用了链接时间优化 (LTO\_BOOTSTRAP) 选项（默认启用）。启用 LTO\_BOOTSTRAP 构建需要大量内存和时间，具体资源需求取决于配置（例如从 Ports 构建或使用 poudriere，架构类型等）。例如，有用户报告需要 5 GiB tmpfs，而在 [PR 265254](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=265254#c2) 中估计约 130 GB 内存需求，原因是生成了大量进程（参见 [https://gcc.gnu.org/bugzilla/show\_bug.cgi?id=106328](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=106328)）。如果资源不足，可考虑禁用 LTO\_BOOTSTRAP，使用 STANDARD\_BOOTSTRAP 或完全禁用 BOOTSTRAP。
 * pkubaj@ 还新增了 lang/gcc12 和 lang/gcc13-devel Ports，并将 lang/gcc9 更新至 9.5。
 * 以下三个更改仍需协助与 upstream GCC 协作（需要源代码经验，而非 Ports）：
@@ -868,7 +872,7 @@ devel/valgrind-devel Port 已更新至 3.20.0.g20220612,1，包含以下改动�
 * 支持新的 auxv 条目
 * 添加 DRD 和 Helgrind 的默认抑制
 
-已提供 vgdb 调用器初始版本——允许 vgdb 使用 ptrace 强制 Valgrind 轮询 gdb 命令，但 Ports 版本尚不可用。
+已提供 vgdb 调用器初始版本——能让 vgdb 使用 ptrace 强制 Valgrind 轮询 gdb 命令，但 Ports 版本尚不可用。
 
 剩余问题不多，预计 FreeBSD 14.0 及更新版本 llvm 仍需支持。其他包括：
 
@@ -886,7 +890,7 @@ devel/valgrind-devel Port 已更新至 3.20.0.g20220612,1，包含以下改动�
 
 联系人：Olivier Duchateau [duchateau.olivier@gmail.com](mailto:duchateau.olivier@gmail.com)
 
-Pantheon 桌面环境为 elementary OS 设计，基于 GNOME 技术（如 Mutter、GNOME Shell、GTK 3 和 4），使用 Vala 编写。
+Pantheon 桌面环境面向 elementary OS 设计，基于 GNOME 技术（如 Mutter、GNOME Shell、GTK 3 和 4），使用 Vala 编写。
 
 目标是为用户提供一个新的桌面环境。部分功能支持不完整，但可实现完整会话。
 
