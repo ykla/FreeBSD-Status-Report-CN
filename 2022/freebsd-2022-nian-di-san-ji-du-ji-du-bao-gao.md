@@ -470,7 +470,7 @@ LLDB 内核模块改进项目（前一季度报告中提及）为 FreeBSD 内核
 
 我很高兴地宣布，SquashFS 将会出现在即将发布的 FreeBSD 版本中。
 
-赞助： 2023 谷歌编程之夏项目
+赞助：2023 谷歌编程之夏项目
 
 ### 进程可见性安全策略
 
@@ -728,7 +728,7 @@ FreeBSD 可在 x86（Intel 和 AMD）和 ARM64（Graviton）EC2 实例上使用�
 
 每周 FreeBSD 快照现在包括针对 14.0 和 15.0 的实验性采用 ZFS 根分区的 AMI。此更改将在 FreeBSD 14.0-RELEASE 中生效。
 
-正在进行发布实验性“cloud-init” AMI 的工作，预计将赶上 FreeBSD 14.0-RELEASE 发布。
+正在进行发布实验性“cloud-init”AMI 的工作，预计将赶上 FreeBSD 14.0-RELEASE 发布。
 
 该工作由 Colin 的 FreeBSD/EC2 Patreon 支持。
 
