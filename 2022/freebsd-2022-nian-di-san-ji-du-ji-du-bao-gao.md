@@ -70,7 +70,7 @@ Matrix 实例及 Element-web 客户端的测试仍在进行。
 
 [基金会活动](https://freebsdfoundation.org/our-work/events/) URL: [https://freebsdfoundation.org/our-work/events/](https://freebsdfoundation.org/our-work/events/)
 
-联系方式：Deb Goodkin [deb@FreeBSDFoundation.org](mailto:deb@FreeBSDFoundation.org)](%[5Bdeb@FreeBSDFoundation.org](mailto:5Bdeb@FreeBSDFoundation.org)%5D(mailto:deb@FreeBSDFoundation.org))
+联系方式：Deb Goodkin [deb@FreeBSDFoundation.org](mailto:deb@FreeBSDFoundation.org)
 
 FreeBSD 基金会是一家 501(c)](3) 非营利组织，致力于支持和推广 FreeBSD 项目及全球社区。个人和企业的捐赠用于资助和管理软件开发项目、会议和开发者峰会。基金会还为 FreeBSD 贡献者提供差旅资助，购买并支持硬件以改善和维护 FreeBSD 基础设施，并提供资源以提升安全性、质量保证和集群管理能力。基金会发布宣传资料以推广、教育和倡导 FreeBSD，促进商业厂商与 FreeBSD 开发者之间的合作，并代表 FreeBSD 项目执行合同、许可协议及其他需要法人实体的法律事务。
 
