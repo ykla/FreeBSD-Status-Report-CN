@@ -102,9 +102,9 @@ FreeBSD 基金会在全球范围内赞助许多会议、活动和峰会。这些
 
 * 2023 年 7 月 13-16 日，在波特兰的 [FOSSY](https://sfconservancy.org/fossy/) 举办研讨会并设立展台
 * 2023 年 7 月 27-29 日，在台湾新北市成为 COSCUP 友好级赞助商
-* 在 EuroBSDCon FreeBSD 开发者峰会上进行演讲，并在 [EuroBSDCon 2023](https://2023.eurobsdcon.org/)](2023 年 9 月 14-17 日，葡萄牙科英布拉）赞助并设立展台
-* 参加 [Open Source Summit, Europe](https://events.linuxfoundation.org/open-source-summit-europe/)](2023 年 9 月 19-21 日，西班牙毕尔巴鄂）
-* 继续筹备 [2023 年 11 月 FreeBSD 厂商峰会](https://freebsdfoundation.org/news-and-events/event-calendar/november-2023-freebsd-vendor-summit/)](11 月 2-3 日，加州圣何塞）
+* 在 EuroBSDCon FreeBSD 开发者峰会上进行演讲，并在 [EuroBSDCon 2023](https://2023.eurobsdcon.org/)（2023 年 9 月 14-17 日，葡萄牙科英布拉）赞助并设立展台
+* 参加 [Open Source Summit, Europe](https://events.linuxfoundation.org/open-source-summit-europe/)（2023 年 9 月 19-21 日，西班牙毕尔巴鄂）
+* 继续筹备 [2023 年 11 月 FreeBSD 厂商峰会](https://freebsdfoundation.org/news-and-events/event-calendar/november-2023-freebsd-vendor-summit/)（11 月 2-3 日，加州圣何塞）
 * 持续管理谷歌编程之夏项目
 * 发布 [七月通讯](https://freebsdfoundation.org/news-and-events/newsletter/freebsd-foundation-update-july-2023/)
 * 其他博客文章
