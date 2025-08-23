@@ -72,7 +72,7 @@ Matrix 实例及 Element-web 客户端的测试仍在进行。
 
 联系方式：Deb Goodkin [deb@FreeBSDFoundation.org](mailto:deb@FreeBSDFoundation.org)
 
-FreeBSD 基金会是一家 501(c)](3) 非营利组织，致力于支持和推广 FreeBSD 项目及全球社区。个人和企业的捐赠用于资助和管理软件开发项目、会议和开发者峰会。基金会还为 FreeBSD 贡献者提供差旅资助，购买并支持硬件以改善和维护 FreeBSD 基础设施，并提供资源以提升安全性、质量保证和集群管理能力。基金会发布宣传资料以推广、教育和倡导 FreeBSD，促进商业厂商与 FreeBSD 开发者之间的合作，并代表 FreeBSD 项目执行合同、许可协议及其他需要法人实体的法律事务。
+FreeBSD 基金会是一家 501(c)(3) 非营利组织，致力于支持和推广 FreeBSD 项目及全球社区。个人和企业的捐赠用于资助和管理软件开发项目、会议和开发者峰会。基金会还为 FreeBSD 贡献者提供差旅资助，购买并支持硬件以改善和维护 FreeBSD 基础设施，并提供资源以提升安全性、质量保证和集群管理能力。基金会发布宣传资料以推广、教育和倡导 FreeBSD，促进商业厂商与 FreeBSD 开发者之间的合作，并代表 FreeBSD 项目执行合同、许可协议及其他需要法人实体的法律事务。
 
 本季度，我们协助 FreeBSD 庆祝 30 周年！这一庆祝活动推动我们加快了 FreeBSD 的发展与创新，同时让我们专注于确定关键投资领域。在九月的董事会会议上，我们细化了目标，重点放在提升 FreeBSD 的采用率和知名度、多元化资金来源，以及投资于社区健康和项目长期稳定性。目前，我们正在确定主要受众和目标市场，同时为这些目标制定可衡量的成果。
 
@@ -191,7 +191,7 @@ FreeBSD 基金会在全球范围内赞助许多会议、活动和峰会。这些
 
 [FreeBSD 开发快照](https://download.freebsd.org/snapshots/ISO-IMAGES/) URL: [https://download.freebsd.org/snapshots/ISO-IMAGES/](https://download.freebsd.org/snapshots/ISO-IMAGES/)
 
-联系方式：FreeBSD 发布工程团队，[re@FreeBSD.org](mailto:re@FreeBSD.org)](%[5Bre@FreeBSD.org](mailto:5Bre@FreeBSD.org)%5D(mailto:re@FreeBSD.org))
+联系方式：FreeBSD 发布工程团队，[re@FreeBSD.org](mailto:re@FreeBSD.org)
 
 FreeBSD 发布工程团队负责制定并发布 FreeBSD 官方版本的发布计划、宣布代码冻结、维护相关分支等工作。
 
@@ -228,9 +228,9 @@ FreeBSD 发布工程团队负责制定并发布 FreeBSD 官方版本的发布计
 
 [dev-ci 邮件列表](https://lists.freebsd.org/subscription/dev-ci) URL: [https://lists.FreeBSD.org/subscription/dev-ci](https://lists.freebsd.org/subscription/dev-ci)
 
-联系方式：Jenkins 管理员 [jenkins-admin@FreeBSD.org](mailto:jenkins-admin@FreeBSD.org)](%[5Bjenkins-admin@FreeBSD.org](mailto:5Bjenkins-admin@FreeBSD.org)%5D(mailto:jenkins-admin@FreeBSD.org))
+联系方式：Jenkins 管理员 [jenkins-admin@FreeBSD.org](mailto:jenkins-admin@FreeBSD.org)
 
-联系方式：許立文 [lwhsu@FreeBSD.org](mailto:lwhsu@FreeBSD.org)](%[5Blwhsu@FreeBSD.org](mailto:5Blwhsu@FreeBSD.org)%5D(mailto:lwhsu@FreeBSD.org))
+联系方式：許立文 [lwhsu@FreeBSD.org](mailto:lwhsu@FreeBSD.org)
 
 联系方式：[freebsd-testing 邮件列表](https://lists.freebsd.org/mailman/listinfo/freebsd-testing)
 
