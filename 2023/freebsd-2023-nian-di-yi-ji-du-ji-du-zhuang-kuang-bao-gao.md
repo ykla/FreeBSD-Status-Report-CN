@@ -883,7 +883,7 @@ Alan Somers <[asomers@freebsd.org](mailto:asomers@freebsd.org)>
 
 FSX（File System eXerciser）工具最早由 Apple 在 1990 年代编写，并自 FreeBSD 5.0 起成为 FreeBSD 代码库的一部分。该工具通过随机生成的操作流对文件系统进行压力测试，并在每次读取后验证文件数据。然而，该工具从未作为操作系统的一部分安装，仅存在于源代码树中，这使得它在 CI 流水线中难以使用。此外，该工具还存在其他限制。  
 
-因此，本季度我用 Rust 重新编写了该工具。新版本在相同的种子值下，与原始工具的行为保持字节级兼容。但未来版本可能会打破向后兼容性，以添加 `fspacectl` 和 `copy_file_range` 等新功能。目前，新版本已进入 Ports，后续我将移除原始版本。
+因此，本季度我用 Rust 重新编写了该工具。新版本在相同的种子值下，与原始工具的行为保持字节级兼容。但后续版本可能会打破向后兼容性，以添加 `fspacectl` 和 `copy_file_range` 等新功能。目前，新版本已进入 Ports，后续我将移除原始版本。
 
 ### FreeBSD 上的 GCC
 
