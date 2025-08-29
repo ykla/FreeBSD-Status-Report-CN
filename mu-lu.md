@@ -1,4 +1,4 @@
-# 目录
+# Table of contents
 
 * [FreeBSD 中文状态报告](README.md)
 * [编辑日志](CHANGELOG.md)
@@ -6,7 +6,8 @@
 
 ## 2025
 
-* [FreeBSD 2025 年第一季度状态报告](2025/2025-q1.md)
+* [FreeBSD 2025 年第二季度状态报告](2025/2025-Q2.md)
+* [FreeBSD 2025 年第一季度状态报告](2025/2025-Q1.md)
 
 ## 2024
 
