@@ -6,7 +6,7 @@
 
 ## [超越 Buildworld……](https://www.freebsd.org/status/report-2013-05-devsummit.html#Beyond-Buildworld...)
 
-联系人：Brooks Davis <[brooks@FreeBSD.org](mailto:brooks@FreeBSD.org)>
+联系方式：Brooks Davis <[brooks@FreeBSD.org](mailto:brooks@FreeBSD.org)>
 
 Buildworld 是 FreeBSD 构建系统中用于构建基本系统的目标。此次会议旨在调查当前的限制、讨论近期的改进，并提出该过程的未来发展方向。
 
@@ -20,8 +20,8 @@ Buildworld 是 FreeBSD 构建系统中用于构建基本系统的目标。此次
 
 ## [文档](https://www.freebsd.org/status/report-2013-05-devsummit.html#Documentation)
 
-联系人：Dru Lavigne <[dru@FreeBSD.org](mailto:dru@FreeBSD.org)>  
-联系人：Benedict Reuschling <[bcr@FreeBSD.org](mailto:bcr@FreeBSD.org)>
+联系方式：Dru Lavigne <[dru@FreeBSD.org](mailto:dru@FreeBSD.org)>  
+联系方式：Benedict Reuschling <[bcr@FreeBSD.org](mailto:bcr@FreeBSD.org)>
 
 文档工作组在主要会议期间召开了会议，并且还在几个富有成效的晚上改进了 FreeBSD 文档的现状。
 
@@ -37,7 +37,7 @@ FreeBSD 项目是国际化的，许多贡献者的母语并非英语。为了鼓
 
 ## [网络接收性能](https://www.freebsd.org/status/report-2013-05-devsummit.html#Network-Receive-Performance)
 
-联系人：George Neville-Neil <[gnn@FreeBSD.org](mailto:gnn@FreeBSD.org)>
+联系方式：George Neville-Neil <[gnn@FreeBSD.org](mailto:gnn@FreeBSD.org)>
 
 FreeBSD 传统上是一个支持非常高性能网络的平台。这是它被选为奈飞流媒体设备的主要原因之一，该设备目前负责美国超过 20% 的互联网流量。本次会议的目标是讨论连接接收端的当前瓶颈。
 
@@ -54,7 +54,7 @@ FreeBSD 传统上是一个支持非常高性能网络的平台。这是它被选
 | [关于 Poudriere 状态的幻灯片](http://people.freebsd.org/~bdrewery/poudriere-0515.pdf) |
 | [关于基于 QEMU 的交叉构建的幻灯片](http://people.freebsd.org/~sson/imgact_binmisc/20130515-bsdcan-xbuild-ports.pdf) |
 
-联系人：Erwin Lansing <[erwin@FreeBSD.org](mailto:erwin@FreeBSD.org)>
+联系方式：Erwin Lansing <[erwin@FreeBSD.org](mailto:erwin@FreeBSD.org)>
 
  Ports 和软件包工作组讨论了安全事件的影响及其经验教训。传统的二进制包构建现在已上线，构建这些包的基础设施也已变得更加易于维护。构建 pkg(8)（新式）软件包应该很快就能实现。
 
@@ -67,7 +67,7 @@ Stacy Son 和 Brooks Davis 讨论了针对不太常见架构的软件包。Stacy
 
 ## [UEFI](https://www.freebsd.org/status/report-2013-05-devsummit.html#UEFI)
 
-联系人：Benno Rice <[benno@FreeBSD.org](mailto:benno@FreeBSD.org)>
+联系方式：Benno Rice <[benno@FreeBSD.org](mailto:benno@FreeBSD.org)>
 
 UEFI 是 Intel 推出的新引导固件标准。它带来了一些挑战，包括 SecureBoot 限制，后者阻止固件引导未签名的内核和引导加载程序。目前这不是一个问题，因为大多数系统要么默认没有启用此限制，要么可以轻松禁用，但未来这一问题将变得更加重要。
 
@@ -86,7 +86,7 @@ FreeBSD 对 UEFI 的支持目标是合并当前项目分支中的引导加载程
 | [VirtIO 状态幻灯片](http://people.freebsd.org/~bryanv/pdfs/bsdcan2013_virtio.pdf) |
 | [Bhyve 幻灯片](http://people.freebsd.org/~grehan/bsdcan13_bhyve.pdf) |
 
-联系人：Peter Grehan <[grehan@FreeBSD.org](mailto:grehan@FreeBSD.org)>
+联系方式：Peter Grehan <[grehan@FreeBSD.org](mailto:grehan@FreeBSD.org)>
 
 虚拟化是一个日益重要的话题，像 Amazon 这样的大型供应商部署了大量的虚拟机，许多用户也在桌面系统上部署虚拟机进行测试和向后兼容。目前，FreeBSD 支持多种虚拟化选项。这个工作组讨论了几种虚拟化技术的当前状态和未来方向。
 
