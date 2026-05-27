@@ -94,11 +94,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
    | 用词不当 | "独家优势"应为"主要优势"（原文 "particular strengths"） |
    | 版本过时 | 15.0-CURRENT 未同步至 16.0-CURRENT |
    | 语法/文字错误 | 重复字词、"非常地"应为"非常" |
-   
+
    欧化汉语（自己联网制定标准）、倒装句。
-   
+
    确保翻译前后的正文段落、代码块、行间代码数量一致，长短接近（如不接近必须核查）。
-   
+
    符合原文的意译翻译也可以保留。
 
 3. **提交修改**：
