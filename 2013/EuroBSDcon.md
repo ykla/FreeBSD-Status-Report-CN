@@ -27,7 +27,7 @@
 
 [讲座播放列表](http://goo.gl/2EF30C)
 
-联系方式：Gábor Pálí <[pgj@FreeBSD.org](mailto:pgj@FreeBSD.org)>
+联系方式：Gábor Páli <[pgj@FreeBSD.org](mailto:pgj@FreeBSD.org)>
 
 自 2011 年起，FreeBSD 开发者峰会专题已成为 BSDCan 和 EuroBSDcon 会议的重要组成部分。它为开发者和社区成员提供了一个机会，展示他们的最新项目，集思广益解决难题，培训与会者使用新工具，观察 FreeBSD 开发过程并讨论如何改进，分享他们的公司如何使用 FreeBSD，或协调活动。在欧洲实例中，还可以听到谷歌编程之夏学生的报告。
 
