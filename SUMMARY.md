@@ -3,6 +3,7 @@
 * [FreeBSD 中文状态报告](README.md)
 * [编辑日志](CHANGELOG.md)
 * [目录](mu-lu.md)
+* [FreeBSD 发行版信息](di-0-zhang-fa-xing-ban-xin-xi.md)
 
 ## 2026
 
