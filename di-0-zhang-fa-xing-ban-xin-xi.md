@@ -1,4 +1,4 @@
-# 发行版信息
+# FreeBSD 发行版信息
 
 - 原文链接：[Release Information](https://www.freebsd.org/releases/)
 
