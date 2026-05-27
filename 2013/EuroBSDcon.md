@@ -1,7 +1,7 @@
 # 2013 EuroBSDcon 开发者峰会特别篇
 
-- 原文链接：<https://www.freebsd.org/status/report-2013-09-devsummit.html>
-- 作者：FreeBSD 项目
+- 原文：[2013 EuroBSDcon Developer Summit](https://www.freebsd.org/status/report-2013-09-devsummit.html)
+- 最后作者：FreeBSD 项目
 
 这份特别的状态报告总结了 2013 年 EuroBSDcon 开发者峰会各工作组的讨论内容。FreeBSD 项目在各种活动中组织开发者峰会，通常在主要的 BSD 会议上，以便开发者们能够面对面地讨论问题。
 

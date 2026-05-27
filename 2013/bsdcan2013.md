@@ -1,7 +1,7 @@
 # 2013 BSDCan 开发者峰会特别篇
 
-- 原文链接：<https://www.freebsd.org/status/report-2013-05-devsummit.html>
-- 作者：FreeBSD 项目
+- 原文：[2013 BSDCan Developer Summit](https://www.freebsd.org/status/report-2013-05-devsummit.html)
+- 最后作者：FreeBSD 项目
 
 这份特别的状态报告包含了 BSDCan 2013 DevSummit 各个工作组讨论的总结。FreeBSD 项目在多个事件中组织 DevSummit，通常是在主要的 BSD 大会上，以便开发者能够面对面地会面并讨论相关事项。
 
