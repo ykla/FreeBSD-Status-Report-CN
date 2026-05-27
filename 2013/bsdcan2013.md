@@ -20,7 +20,7 @@ Buildworld 是 FreeBSD 构建系统中用于构建基本系统的目标。此次
 
 ## [文档](https://www.freebsd.org/status/report-2013-05-devsummit.html#Documentation)
 
-联系方式：Dru Lavigne <[dru@FreeBSD.org](mailto:dru@FreeBSD.org)>  
+联系方式：Dru Lavigne <[dru@FreeBSD.org](mailto:dru@FreeBSD.org)>
 
 联系方式：Benedict Reuschling <[bcr@FreeBSD.org](mailto:bcr@FreeBSD.org)>
 
