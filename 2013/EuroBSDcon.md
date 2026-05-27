@@ -6,8 +6,8 @@
 
 ## [桌面](https://www.freebsd.org/status/report-2013-09-devsummit.html#Desktop)
 
-| 链接                                                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 链接                                                                                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [总结](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=DesktopWG-Summary.pdf) |
 
 联系方式：Kris Moore <[kmoore@FreeBSD.org](mailto:kmoore@FreeBSD.org)>
@@ -22,8 +22,8 @@
 
 ## [开发者峰会专题](https://www.freebsd.org/status/report-2013-09-devsummit.html#Developer-Summit-Track)
 
-| 链接                                                        |
-| ----------------------------------------------------------- |
+| 链接                                                         |
+| ---------------------------------------------------------- |
 | [讲座播放列表](http://goo.gl/2EF30C) |
 
 联系方式：Gábor Pálí <[pgj@FreeBSD.org](mailto:pgj@FreeBSD.org)>
@@ -34,9 +34,9 @@
 
 ## [DNS](https://www.freebsd.org/status/report-2013-09-devsummit.html#DNS)
 
-| 链接 |
-| ----- |
-| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=20130928-eurobsdcon-dns-summary.pdf)      |
+| 链接  |
+| --- |
+| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=20130928-eurobsdcon-dns-summary.pdf) |
 
 联系方式：Erwin Lansing <[erwin@FreeBSD.org](mailto:erwin@FreeBSD.org)>
 
@@ -46,9 +46,9 @@ FreeBSD 10 将不再包含 BIND，而是基于 unbound(8) 和 LDNS，这两个�
 
 ## [文档](https://www.freebsd.org/status/report-2013-09-devsummit.html#Documentation)
 
-| 链接 |
-| ----- |
-| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=DocWGSummaryReport.pdf)      |
+| 链接  |
+| --- |
+| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=DocWGSummaryReport.pdf) |
 
 联系方式：Benedict Reuschling <[bcr@FreeBSD.org](mailto:bcr@FreeBSD.org)>
 
@@ -66,11 +66,11 @@ FreeBSD 10 将不再包含 BIND，而是基于 unbound(8) 和 LDNS，这两个�
 
 ## [嵌入式平台](https://www.freebsd.org/status/report-2013-09-devsummit.html#Embedded-Platforms)
 
-| 链接 |
-| ----- |
-| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=Embedded-devsummit-201309.pdf)      |
-| [笔记](https://wiki.freebsd.org/201309DevSummit/Embedded)      |
-| [剑桥笔记](https://wiki.freebsd.org/201308DevSummit/Embedded)      |
+| 链接  |
+| --- |
+| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=Embedded-devsummit-201309.pdf) |
+| [笔记](https://wiki.freebsd.org/201309DevSummit/Embedded) |
+| [剑桥笔记](https://wiki.freebsd.org/201308DevSummit/Embedded) |
 
 联系方式：Warner Losh <[imp@FreeBSD.org](mailto:imp@FreeBSD.org)>  
 联系方式：Brooks Davis <[brooks@FreeBSD.org](mailto:brooks@FreeBSD.org)>
@@ -91,9 +91,9 @@ FreeBSD 10 将不再包含 BIND，而是基于 unbound(8) 和 LDNS，这两个�
 
 ## [网络](https://www.freebsd.org/status/report-2013-09-devsummit.html#Networking)
 
-| 链接 |
-| ----- |
-| [笔记](https://wiki.freebsd.org/201309DevSummit/Networking)      |
+| 链接  |
+| --- |
+| [笔记](https://wiki.freebsd.org/201309DevSummit/Networking) |
 
 联系方式：Lawrence Stewart <[lstewart@FreeBSD.org](mailto:lstewart@FreeBSD.org)>  
 联系方式：Gleb Smirnoff <[glebius@FreeBSD.org](mailto:glebius@FreeBSD.org)>
@@ -104,10 +104,10 @@ André Oppermann 汇报了他目前在网络堆栈与驱动程序之间接口的
 
 ## [Port 与软件包](https://www.freebsd.org/status/report-2013-09-devsummit.html#Ports-and-Packages)
 
-| 链接 |
-| ----- |
-| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=20130928-eurobsdcon-ports-summary.pdf)      |
-| [笔记](https://wiki.freebsd.org/201309DevSummit/Ports)      |
+| 链接  |
+| --- |
+| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=20130928-eurobsdcon-ports-summary.pdf) |
+| [笔记](https://wiki.freebsd.org/201309DevSummit/Ports) |
 
 联系方式：Erwin Lansing <[erwin@FreeBSD.org](mailto:erwin@FreeBSD.org)>
 
@@ -123,10 +123,10 @@ Baptiste Daroussin 介绍了最近提交的分阶段安装。其他所有软件�
 
 ## [安全](https://www.freebsd.org/status/report-2013-09-devsummit.html#Security)
 
-| 链接 |
-| ----- |
-| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=201309+DevSummit+Security+Report.pdf)      |
-| [笔记](https://wiki.freebsd.org/201309DevSummit/Security)      |
+| 链接  |
+| --- |
+| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=201309+DevSummit+Security+Report.pdf) |
+| [笔记](https://wiki.freebsd.org/201309DevSummit/Security) |
 
 联系方式：Dag-Erling Smørgrav <[des@FreeBSD.org](mailto:des@FreeBSD.org)>
 
@@ -140,12 +140,12 @@ Baptiste Daroussin 介绍了最近提交的分阶段安装。其他所有软件�
 
 ## [工具链和构建系统](https://www.freebsd.org/status/report-2013-09-devsummit.html#Toolchain-and-Build-Systems)
 
-| 链接 |
-| ----- |
-| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=toolchain-and-build-eurobsdcon2013.pdf)      |
-| [笔记](https://wiki.freebsd.org/201309DevSummit/ToolchainAndBuild)      |
-| [剑桥笔记](https://wiki.freebsd.org/201308DevSummit/ToolchainAndBuild)      |
-| [路线图](https://wiki.freebsd.org/GPLinBase)      |
+| 链接  |
+| --- |
+| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=toolchain-and-build-eurobsdcon2013.pdf) |
+| [笔记](https://wiki.freebsd.org/201309DevSummit/ToolchainAndBuild) |
+| [剑桥笔记](https://wiki.freebsd.org/201308DevSummit/ToolchainAndBuild) |
+| [路线图](https://wiki.freebsd.org/GPLinBase) |
 
 联系方式：Brooks Davis <[brooks@FreeBSD.org](mailto:brooks@FreeBSD.org)>
 
@@ -165,10 +165,10 @@ Baptiste Daroussin 介绍了最近提交的分阶段安装。其他所有软件�
 
 ## [USB](https://www.freebsd.org/status/report-2013-09-devsummit.html#USB)
 
-| 链接 |
-| ----- |
-| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=DevSummitUSB2013Status.pdf)      |
-| [笔记](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=DevSummitUSB2013.pdf)      |
+| 链接  |
+| --- |
+| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=DevSummitUSB2013Status.pdf) |
+| [笔记](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=DevSummitUSB2013.pdf) |
 
 联系方式：Hans-Petter Selasky <[hselasky@FreeBSD.org](mailto:hselasky@FreeBSD.org)>
 
@@ -178,9 +178,9 @@ Baptiste Daroussin 介绍了最近提交的分阶段安装。其他所有软件�
 
 ## [厂商讨论](https://www.freebsd.org/status/report-2013-09-devsummit.html#Vendor-Discussions)
 
-| 链接 |
-| ----- |
-| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=20130928-eurobsdcon-vendor-summary.pdf)      |
+| 链接  |
+| --- |
+| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=20130928-eurobsdcon-vendor-summary.pdf) |
 
 联系方式：Erwin Lansing <[erwin@FreeBSD.org](mailto:erwin@FreeBSD.org)>
 
@@ -192,10 +192,10 @@ Baptiste Daroussin 介绍了最近提交的分阶段安装。其他所有软件�
 
 ## [虚拟化](https://www.freebsd.org/status/report-2013-09-devsummit.html#Virtualization)
 
-| 链接 |
-| ----- |
-| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=eurobsdcon_summary.pdf)      |
-| [笔记](https://wiki.freebsd.org/201309DevSummit/Virtualization)      |
+| 链接  |
+| --- |
+| [摘要](https://wiki.freebsd.org/201309DevSummit?action=AttachFile&do=get&target=eurobsdcon_summary.pdf) |
+| [笔记](https://wiki.freebsd.org/201309DevSummit/Virtualization) |
 
 联系方式：Peter Grehan <[grehan@FreeBSD.org](mailto:grehan@FreeBSD.org)>
 
@@ -203,8 +203,8 @@ Baptiste Daroussin 介绍了最近提交的分阶段安装。其他所有软件�
 
 ## [ZFS](https://www.freebsd.org/status/report-2013-09-devsummit.html#ZFS)
 
-| 链接 |
-| ----- |
+| 链接  |
+| --- |
 
 联系方式：Martin Matuška <[mm@FreeBSD.org](mailto:mm@FreeBSD.org)>  
 联系方式：Matthew Ahrens <[mahrens@delphix.com](mailto:mahrens@delphix.com)>

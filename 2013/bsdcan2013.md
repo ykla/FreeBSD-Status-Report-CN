@@ -45,7 +45,7 @@ FreeBSD 传统上是一个支持非常高性能网络的平台。这是它被选
 
 ## [Ports 和软件包](https://www.freebsd.org/status/report-2013-05-devsummit.html#Ports-and-Packages)
 
-| 链接 |
+| 链接  |
 | --- |
 | [关于 Poudriere 状态的幻灯片](http://people.freebsd.org/~bdrewery/poudriere-0515.pdf) |
 | [关于基于 QEMU 的交叉构建的幻灯片](http://people.freebsd.org/~sson/imgact_binmisc/20130515-bsdcan-xbuild-ports.pdf) |
@@ -72,7 +72,7 @@ FreeBSD 对 UEFI 的支持目标是合并当前项目分支中的引导加载程
 
 ## [虚拟化](https://www.freebsd.org/status/report-2013-05-devsummit.html#Virtualization)
 
-| 链接 |
+| 链接  |
 | --- |
 | [总体状态幻灯片](http://people.freebsd.org/~grehan/bsdcan13_virt_ext.pdf) |
 | [Xen 状态幻灯片](http://people.freebsd.org/~gibbs/XenStatusBSDCan2013.pdf) |
