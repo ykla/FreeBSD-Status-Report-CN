@@ -5,7 +5,7 @@
 
 这份特别的状态报告包含了 BSDCan 2013 DevSummit 各个工作组讨论的总结。FreeBSD 项目在多个事件中组织 DevSummit，通常是在主要的 BSD 大会上，以便开发者能够面对面地会面并讨论相关事项。
 
-## [超越 Buildworld……](https://www.freebsd.org/status/report-2013-05-devsummit.html#Beyond-Buildworld...)
+## 超越 Buildworld……
 
 联系方式：Brooks Davis <[brooks@FreeBSD.org](mailto:brooks@FreeBSD.org)>
 
@@ -19,7 +19,7 @@ Buildworld 是 FreeBSD 构建系统中用于构建基本系统的目标。此次
 
 在 10.x 和 11.x 时间范围内，我们计划对工具链进行一系列更改，包括用基于 LLVM 的工具替代 GNU binutils，并导入 MCLinker。虽然这些改动不太可能成为 10.0 的默认配置，但我们希望能够在今年提供一个无 GPL 的功能性基本系统选项。
 
-## [文档](https://www.freebsd.org/status/report-2013-05-devsummit.html#Documentation)
+## 文档
 
 联系方式：Dru Lavigne <[dru@FreeBSD.org](mailto:dru@FreeBSD.org)>
 
@@ -35,7 +35,7 @@ FreeBSD 项目是国际化的，许多贡献者的母语并非英语。为了鼓
 
 文档团队计划在 8 月与剑桥 DevSummit 同时举办一个 Docs Hackathon。
 
-## [网络接收性能](https://www.freebsd.org/status/report-2013-05-devsummit.html#Network-Receive-Performance)
+## 网络接收性能
 
 联系方式：George Neville-Neil <[gnn@FreeBSD.org](mailto:gnn@FreeBSD.org)>
 
@@ -45,7 +45,7 @@ FreeBSD 传统上是一个支持非常高性能网络的平台。这是它被选
 
 该小组检查了多个不同的提案，包括一些补丁，并讨论了通用 API 的需求。该工作仍在进行中。
 
-## [Ports 和软件包](https://www.freebsd.org/status/report-2013-05-devsummit.html#Ports-and-Packages)
+## Ports 和软件包
 
 链接
 
@@ -55,15 +55,15 @@ FreeBSD 传统上是一个支持非常高性能网络的平台。这是它被选
 
 联系方式：Erwin Lansing <[erwin@FreeBSD.org](mailto:erwin@FreeBSD.org)>
 
- Ports 和软件包工作组讨论了安全事件的影响及其经验教训。传统的二进制包构建现在已上线，构建这些包的基础设施也已变得更加易于维护。构建 pkg(8)（新式）软件包应该很快就能实现。
+ Ports 和软件包工作组讨论了安全事件的影响及其经验教训。传统的二进制软件包构建现在已上线，构建这些软件包的基础设施也已变得更加易于维护。构建 pkg(8)（新式）软件包应该很快就能实现。
 
-Bryan Drewery 简短介绍了 Poudriere 新包构建器的状态。它可用于构建本地部署和官方 FreeBSD 软件包的包集合。当原始的包构建基础设施设计时，在高端机器上构建像 Mozilla 这样的大型 Port 需要大半天时间。现在，FreeBSD 集群中的单台机器就能在一天之内构建完整的 Port 树。Poudriere 设计为适应这种模式，并且不依赖于 Port 内部支持并行构建。相反，它会在单独的 jail 中构建每个 Port，当不依赖的 Port 可以并行构建时，便利用空闲的 CPU。
+Bryan Drewery 简短介绍了 Poudriere 新软件包构建器的状态。它可用于构建本地部署和官方 FreeBSD 软件包的软件包集合。当原始的软件包构建基础设施设计时，在高端机器上构建像 Mozilla 这样的大型 Port 需要大半天时间。现在，FreeBSD 集群中的单台机器就能在一天之内构建完整的 Port 树。Poudriere 设计为适应这种模式，并且不依赖于 Port 内部支持并行构建。相反，它会在单独的 jail 中构建每个 Port，当不依赖的 Port 可以并行构建时，便利用空闲的 CPU。
 
 展望未来，该项目计划将软件包发布与基本系统发布解耦。每个基本系统版本旨在其发布系列内向后兼容，因此 N.x 的软件包应适用于 N.x+1。该项目将为每个分支每周构建软件包集，并保留两周时间，不进行质量保证（QA），同时每月发布经过 QA 测试的集，并且保留 12 个月。
 
-Stacy Son 和 Brooks Davis 讨论了针对不太常见架构的软件包。Stacy 已经为 FreeBSD 带来了 QEMU 用户模式支持。这意味着 MIPS 或 ARM 架构的 FreeBSD 二进制文件可以在 x86 FreeBSD 系统上运行。内核将检测异构二进制文件并在模拟器中启动它。Stacy 使用这一功能创建包含主机架构的交叉编译器和 shell、以及目标架构的原生库的 jail。这使得即便是没有交叉构建意识的 Port，也可以运行配置脚本，例如编译和运行可执行文件，同时将构建的计算密集型部分（编译和链接）放在模拟外执行。通过这种方法，我们可以轻松在单台 x86 机器上为 MIPS 和 ARM 构建每周的包集合。对于嵌入式系统的安装，仍然存在一些未解决的问题。pkg(8) 基础设施能够将许多软件包安装到磁盘映像中，但无法在目标系统启动前运行复杂的安装后脚本。
+Stacy Son 和 Brooks Davis 讨论了针对不太常见架构的软件包。Stacy 已经为 FreeBSD 带来了 QEMU 用户模式支持。这意味着 MIPS 或 ARM 架构的 FreeBSD 二进制文件可以在 x86 FreeBSD 系统上运行。内核将检测异构二进制文件并在模拟器中启动它。Stacy 使用这一功能创建包含主机架构的交叉编译器和 shell、以及目标架构的原生库的 jail。这使得即便是没有交叉构建意识的 Port，也可以运行配置脚本，例如编译和运行可执行文件，同时将构建的计算密集型部分（编译和链接）放在模拟外执行。通过这种方法，我们可以轻松在单台 x86 机器上为 MIPS 和 ARM 构建每周的软件包集合。对于嵌入式系统的安装，仍然存在一些未解决的问题。pkg(8) 基础设施能够将许多软件包安装到磁盘映像中，但无法在目标系统启动前运行复杂的安装后脚本。
 
-## [UEFI](https://www.freebsd.org/status/report-2013-05-devsummit.html#UEFI)
+## UEFI
 
 联系方式：Benno Rice <[benno@FreeBSD.org](mailto:benno@FreeBSD.org)>
 
@@ -73,7 +73,7 @@ FreeBSD 对 UEFI 的支持目标是合并当前项目分支中的引导加载程
 
 在接下来的几个月里，需要进行一些重构和重组工作，以确保 FreeBSD 引导过程能够与 UEFI 干净地配合。这些任务包括：删除在使用 UEFI 的各个平台之间的代码重复，移除 i386 内核中的一些遗留支持，以及重新组织某些引导加载程序代码的构建方式。待 clang 在生成 UNIX 二进制文件时支持 MS Windows 调用约定（UEFI 使用的约定），与 UEFI 的交互将得到简化。Benno Rice 正在这方面进行工作，David Chisnall 提供了一些协助，这项支持预计很快会出现。
 
-## [虚拟化](https://www.freebsd.org/status/report-2013-05-devsummit.html#Virtualization)
+## 虚拟化
 
 链接
 
@@ -83,7 +83,7 @@ FreeBSD 对 UEFI 的支持目标是合并当前项目分支中的引导加载程
 
 [VirtIO 状态幻灯片](http://people.freebsd.org/~bryanv/pdfs/bsdcan2013_virtio.pdf)
 
-[Bhyve 幻灯片](http://people.freebsd.org/~grehan/bsdcan13_bhyve.pdf)
+[bhyve 幻灯片](http://people.freebsd.org/~grehan/bsdcan13_bhyve.pdf)
 
 联系方式：Peter Grehan <[grehan@FreeBSD.org](mailto:grehan@FreeBSD.org)>
 
