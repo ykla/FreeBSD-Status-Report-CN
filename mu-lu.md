@@ -1,6 +1,6 @@
 # 目录
 
-* [FreeBSD 中文状态报告](README.md)
+* [FreeBSD 状态报告](README.md)
 * [编辑日志](CHANGELOG.md)
 * [目录](mu-lu.md)
 
